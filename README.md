@@ -7,13 +7,18 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 ## __Task List!__
 - [ ] Get files in order!
 - [ ] Add code snippets to this file or another file - maybe in the same github folder and have projects separated in there as well?
-- [ ] [Section 5](#html_quiz)
-  - [ ] HTML Challenge
+- [ ] [Section 5:](#html_quiz)
+  - [x] HTML Challenge
   - [ ] HTML Quiz
+  - [ ] Optional Exercise
+- [ ] [Section 6:](#css_quiz)
+  - [ ] CSS Challenge
+  - [ ] CSS Quiz
   - [ ] Optional Exercise
 - [ ] [Z2M Challenges](https://zero-to-mastery.github.io/zero-to-mastery-website/projects/coding-challenges.html)
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
 - [ ] Exercises: w3resource.com/javascript/exercises (use strict!)
+- [ ] Add Table of Contents?
 
 ## __Future Projects__
 - [ ] #30dayproject
@@ -260,7 +265,7 @@ Reference websites:
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
 ******************************************************************************************
-### Exercises: CSS Quiz:
+### <a name="css_quiz"></a>Exercises: CSS Quiz:
 *	[W3C Quiz](https://www.w3schools.com/css/css_quiz.asp)
 *	As a bonus, you can try some interactive CSS exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/css/exercise.asp)
 *	Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-css)
