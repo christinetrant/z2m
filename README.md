@@ -171,7 +171,7 @@ Properties:
 *	cursor
 *	color: html, hex, rgb or rgba
 
-Selectors:
+[Selectors:](https://www.w3schools.com/cssref/css_selectors.asp)
 *	`.class`
 *	`#id`
 *	`*` (all elements)
