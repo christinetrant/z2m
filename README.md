@@ -9,7 +9,8 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] Add code snippets to this file or another file - maybe in the same github folder and have projects separated in there as well?
 - [ ] [Section 5:](#html_quiz)
   - [x] HTML Challenge
-  - [ ] HTML Quiz
+  - [x] HTML Quiz
+  - [x] Bonus Quiz
   - [ ] Optional Exercise
 - [ ] [Section 6:](#css_quiz)
   - [ ] CSS Challenge
