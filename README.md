@@ -13,8 +13,8 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] Bonus Quiz
   - [ ] Optional Exercise
 - [ ] [Section 6:](#css_quiz)
-  - [ ] CSS Challenge
-  - [ ] CSS Quiz
+  - [X] CSS Diner
+  - [X] CSS Quiz
   - [ ] Optional Exercise
 - [ ] [Z2M Challenges](https://zero-to-mastery.github.io/zero-to-mastery-website/projects/coding-challenges.html)
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
