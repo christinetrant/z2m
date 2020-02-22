@@ -1,0 +1,71 @@
+<head>
+  <title>Basic HTML5 - Register</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Register</a>
+    </nav>
+    <h1>Hello World!</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sign Up!</h2>
+      <p>Fill in the form to register!</p>
+      <form method="GET">
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName" required><br><br>
+
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="DOB">Date of Birth: </label>
+        <input type="date" name="DOB"><br><br>
+
+        <label for="password">Password: </label>
+        <!-- <input type="password" name="password" minlength="5" required><br><br> -->
+        <input type="password" name="password" pattern=".{5,}" required><br><br>
+        <!-- Instead of minlength for password we can use pattern which only allows 5 or more numbers -->
+
+
+        <label for="gender">Gender: </label>
+        <select name="gender">
+          <option>Select:</option>
+          <option value="Male">Male</option>
+          <option value="Femle">Female</option>
+          <option value="Other">Other</option> 
+        </select><br><br>
+
+        <label>How much do you love cats?</label><br>
+        <input type="radio" id="a-little" name="loveCats" value="A little test">
+        <label for="a-little">A little</label><br>
+        <input type="radio" id="alot" name="loveCats" value="A lot test">
+        <label for="alot">A lot</label><br>
+        <input type="radio" id="borderline" name="loveCats" value="Borderline obsessive test">
+        <label for="borderline">Borderline obsessive!</label><br><br>      
+     
+     
+          <!-- ******
+            See if you can play around with the below checkboxes and add the "value" attribute. How will this change the query string when you click "Register"?
+          ***** -->
+          <input type="checkbox" name="cat" value="1"> Cat<br>
+          <input type="checkbox" name="dog" value="2"> Dog<br>
+          <br><br>
+          <input type="submit" value="Register!">
+          <input type="reset" value="Clear">
+
+        </form>
+    </section>    
+  </main>
+  <br>
+  <footer>
+    <p>&copy; noone this is silly and just for me</p>
+  </footer>
+</body>
+</html>
