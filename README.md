@@ -13,8 +13,10 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] Bonus Quiz
   - [ ] Optional Exercise
 - [ ] [Section 6:](#css_quiz)
-  - [X] CSS Diner
-  - [X] CSS Quiz
+  - [ ] CSS Challenge
+  - [x] CSS Diner
+  - [x] CSS Quiz
+  - [x] Bonus Quiz
   - [ ] Optional Exercise
 - [ ] [Z2M Challenges](https://zero-to-mastery.github.io/zero-to-mastery-website/projects/coding-challenges.html)
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
@@ -215,6 +217,7 @@ Exercises:
 *	https://flukeout.github.io/
 
 Reference websites:
+*	https://www.w3schools.com/cssref/css_selectors.asp
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -259,6 +262,7 @@ Exercises:
 
 Reference websites:
 *	https://caniuse.com/
+*	https://darekkay.com/dev/flexbox-cheatsheet.html
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 *	http://shouldiprefix.com/
 *	https://robots.thoughtbot.com/transitions-and-transforms
