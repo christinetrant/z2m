@@ -11,9 +11,9 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] HTML Challenge
   - [x] HTML Quiz
   - [x] Bonus Quiz
-  - [ ] Optional Exercise
+  - [x] Optional Exercise
 - [ ] [Section 6:](#css_quiz)
-  - [ ] CSS Challenge
+  - [x] CSS Challenge
   - [x] CSS Diner
   - [x] CSS Quiz
   - [x] Bonus Quiz
