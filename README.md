@@ -306,7 +306,6 @@ Reference websites:
 App for creating users list:
 *	https://mailchimp.com
 
-
 Website with animation examples:
 *	https://daneden.github.io/animate.css
 
@@ -317,10 +316,16 @@ Website for patterns:
 *	https://mdbootstrap.com/freebies/
 *	https://www.creative-tim.com/
 
+Template Resources (free):
+* 	https://html5up.net/
+*	https://cruip.com/
+*	http://www.mashup-template.com/templates.html
+*	https://www.creative-tim.com/bootstrap-themes/free
+*	https://startbootstrap.com/templates/
+*	https://zerotomastery.io/resources/
 
 Generating animated patterns:
 *	https://daneden.github.io/animate.css/
-
 
 Installing Github:
 *	https://desktop.github.com/
