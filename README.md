@@ -1,5 +1,7 @@
 # Complete-Web-Developer-Manual
 
+[Official Zero to Mastery Website](https://zerotomastery.io/community/coding-challenges/?utm_source=github&utm_medium=coding_challenge-25)
+[Students Zero to Mastery website](https://zero-to-mastery.github.io/zero-to-mastery-website/)
 
 All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
 Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/complete-web-developer-manual)
@@ -18,11 +20,26 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] CSS Quiz
   - [x] Bonus Quiz
   - [ ] Optional Exercise
+  - [ ] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
+- [ ] [Section 8:](#bootstrap-4)
+  - [ ] Bootstrap Landing Page with Mailchimp integration
+  - [ ] [Challenge 20](https://github.com/zero-to-mastery/coding_challenge-20)
+  - [ ] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
+  - [ ] [Challenge 11](https://github.com/zero-to-mastery/coding_challenge-11)
+  - [ ] [Challenge 16](https://github.com/zero-to-mastery/coding_challenge-16)
+  - [ ] [Challenge 2](https://github.com/zero-to-mastery/Coding_Challenge-2)
+  - [ ] [Challenge 5](https://github.com/zero-to-mastery/Coding_Challenge-5)
+  - [ ] [Challenge 10](https://github.com/zero-to-mastery/coding_challenge-10)
+  
+- [ ] [Javascript Test](https://quiz.typeofnan.dev/)
 - [ ] [Z2M Challenges](https://zero-to-mastery.github.io/zero-to-mastery-website/projects/coding-challenges.html)
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
 - [ ] Exercises: w3resource.com/javascript/exercises (use strict!)
 - [ ] Add Table of Contents?
-
+- [ ] Javascript [Coding Challenge 6]https://github.com/zero-to-mastery/Coding_Challenge-6)
+- [ ] Javascript [Coding Challenge 7](https://github.com/zero-to-mastery/Coding_Challenge-7)
+- [ ] Javascript [Coding Challenge 14 Memory Game](https://github.com/zero-to-mastery/coding_challenge-14)
+- [ ] Javascript [Coding Challenge 18](https://github.com/zero-to-mastery/coding_challenge-18)
 ## __Future Projects__
 - [ ] #30dayproject
 - [ ] DOM projects & challenges?
@@ -31,6 +48,13 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] Tabata / Timer in vanilla js
 - [ ] Calculator
 - [ ] My recipes as web page / React?
+- [ ] [Extra Practice Challenge 22](https://github.com/zero-to-mastery/coding_challenge-22)
+- [ ] [Three.js Coding Challenge 9](https://github.com/zero-to-mastery/Coding_Challenge-9)
+- [ ] [Challenge 23 - wavesjs](https://github.com/zero-to-mastery/coding_challenge-23)
+- [ ] [After studying Node Challenge 17](https://github.com/zero-to-mastery/coding_challenge-17)
+- [ ] [After studying React Challenge 19](https://github.com/zero-to-mastery/coding_challenge-19)
+- [ ] [Coding Challenge 21](https://github.com/zero-to-mastery/coding_challenge-21)
+- [ ] [Advent of Code Challenge 24](https://github.com/zero-to-mastery/coding_challenge-24)
 
 ******************************************************************************************
 ## 1.	__Introduction__
@@ -282,7 +306,6 @@ Reference websites:
 App for creating users list:
 *	https://mailchimp.com
 
-
 Website with animation examples:
 *	https://daneden.github.io/animate.css
 
@@ -293,10 +316,16 @@ Website for patterns:
 *	https://mdbootstrap.com/freebies/
 *	https://www.creative-tim.com/
 
+Template Resources (free):
+* 	https://html5up.net/
+*	https://cruip.com/
+*	http://www.mashup-template.com/templates.html
+*	https://www.creative-tim.com/bootstrap-themes/free
+*	https://startbootstrap.com/templates/
+*	https://zerotomastery.io/resources/
 
 Generating animated patterns:
 *	https://daneden.github.io/animate.css/
-
 
 Installing Github:
 *	https://desktop.github.com/
