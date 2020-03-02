@@ -24,7 +24,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] [Section 8:](#bootstrap-4)
   - [ ] Bootstrap Landing Page with Mailchimp integration
   - [ ] [Challenge 20](https://github.com/zero-to-mastery/coding_challenge-20)
-  - [ ] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
+  - [x] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
   - [ ] [Challenge 11](https://github.com/zero-to-mastery/coding_challenge-11)
   - [ ] [Challenge 16](https://github.com/zero-to-mastery/coding_challenge-16)
   - [ ] [Challenge 2](https://github.com/zero-to-mastery/Coding_Challenge-2)
