@@ -9,7 +9,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 ## __Task List!__
 - [ ] Get files in order!
 - [ ] Add code snippets to this file or another file - maybe in the same github folder and have projects separated in there as well?
-- [ ] [Section 5:](#html_quiz)
+- [x] [Section 5:](#html_quiz)
   - [x] HTML Challenge
   - [x] HTML Quiz
   - [x] Bonus Quiz
@@ -19,7 +19,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] CSS Diner
   - [x] CSS Quiz
   - [x] Bonus Quiz
-  - [ ] Optional Exercise
+  - [x] Optional Exercise
   - [ ] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
 - [ ] [Section 8:](#bootstrap-4)
   - [ ] Bootstrap Landing Page with Mailchimp integration
