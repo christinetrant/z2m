@@ -1,6 +1,7 @@
 # Complete-Web-Developer-Manual
 
 [Official Zero to Mastery Website](https://zerotomastery.io/community/coding-challenges/?utm_source=github&utm_medium=coding_challenge-25)
+
 [Students Zero to Mastery website](https://zero-to-mastery.github.io/zero-to-mastery-website/)
 
 All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
@@ -22,11 +23,12 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] Optional Exercise
   - [ ] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
 - [ ] [Section 8:](#bootstrap-4)
-  - [ ] Bootstrap Landing Page with Mailchimp integration
-  - [ ] [Challenge 20](https://github.com/zero-to-mastery/coding_challenge-20)
+  - [x] Bootstrap Landing Page with Mailchimp integration
   - [x] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
+  - [ ] CSS Grid Layout Challenge (Lesson 89. CSS Layout)
   - [ ] [Challenge 11](https://github.com/zero-to-mastery/coding_challenge-11)
   - [ ] [Challenge 16](https://github.com/zero-to-mastery/coding_challenge-16)
+  - [ ] [Challenge 20](https://github.com/zero-to-mastery/coding_challenge-20)
   - [ ] [Challenge 2](https://github.com/zero-to-mastery/Coding_Challenge-2)
   - [ ] [Challenge 5](https://github.com/zero-to-mastery/Coding_Challenge-5)
   - [ ] [Challenge 10](https://github.com/zero-to-mastery/coding_challenge-10)
@@ -36,7 +38,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
 - [ ] Exercises: w3resource.com/javascript/exercises (use strict!)
 - [ ] Add Table of Contents?
-- [ ] Javascript [Coding Challenge 6]https://github.com/zero-to-mastery/Coding_Challenge-6)
+- [ ] Javascript [Coding Challenge 6](https://github.com/zero-to-mastery/Coding_Challenge-6)
 - [ ] Javascript [Coding Challenge 7](https://github.com/zero-to-mastery/Coding_Challenge-7)
 - [ ] Javascript [Coding Challenge 14 Memory Game](https://github.com/zero-to-mastery/coding_challenge-14)
 - [ ] Javascript [Coding Challenge 18](https://github.com/zero-to-mastery/coding_challenge-18)
