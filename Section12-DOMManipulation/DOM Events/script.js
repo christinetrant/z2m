@@ -1,30 +1,47 @@
 var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
+var input = document.getElementById("inputText")
 var ul = document.querySelector("ul");
 
-function inputLength() {
+// when user clicks button have event listener
+// when user hits enter key (which = 13) have event listener
+// for both of above need to store input text
+// then need to add to end of list (ul append?create textnode?)
+// clear input field ""
+// can't have empty string added string length > 0
+
+//toggle done or not
+
+function addListItem() {
+	// 1. Create a new list item
+	var listItem = document.createElement("li");
+	// 2. Get value of the input
+	var inputItem = document.createTextNode(input.value);
+	// 3. Add value to the new list item
+	listItem.appendChild(inputItem);
+	// 4. Add new list item to the bottom of the ul
+	ul.appendChild(listItem);
+	// 5. Clear input field
+	input.value = "";
+	// focus style on input field
+	input.focus();
+}
+
+function inputValueLength() {
 	return input.value.length;
 }
 
-function createListElement() {
-	var li = document.createElement("li");
-	li.appendChild(document.createTextNode(input.value));
-	ul.appendChild(li);
-	input.value = "";
-}
-
-function addListAfterClick() {
-	if (inputLength() > 0) {
-		createListElement();
+function addAfterClick() {
+	if(inputValueLength() > 0) {
+		// console.log("click click!");
+		addListItem();
 	}
 }
-
-function addListAfterKeypress(event) {
-	if (inputLength() > 0 && event.keyCode === 13) {
-		createListElement();
+function addAfterEnter(event) {
+	if(inputValueLength > 0 && event.which === 13) {
+		// console.log("enter!");
+		addListItem();
 	}
 }
+button.addEventListener("click", addAfterClick);
 
-button.addEventListener("click", addListAfterClick);
-
-input.addEventListener("keypress", addListAfterKeypress);
+input.addEventListener("keypress", addAfterEnter);
