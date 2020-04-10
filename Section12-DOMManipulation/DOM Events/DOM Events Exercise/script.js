@@ -16,6 +16,7 @@ var edit = document.getElementsByClassName("edit");
 function addListItem() {
 	// 1. Create a new list item
 	var listItem = document.createElement("li");
+	var spanEl = document.createElement("span");
 	// 2. Get value of the input
 	var inputItem = document.createTextNode(input.value);
 	// Create Delete & Edit Buttons to add to list items
@@ -26,7 +27,8 @@ function addListItem() {
 	delBtn.classList.add("del");
 	delBtn.innerHTML = "Del";
 	// 3. Add value to the new list item
-	listItem.appendChild(inputItem);
+	listItem.appendChild(spanEl);
+	spanEl.appendChild(inputItem);
 	// 4. Add new list item to the bottom of the ul
 	ul.appendChild(listItem);
 	listItem.appendChild(editBtn);
@@ -40,10 +42,17 @@ function addListItem() {
 function editListItem(event) {
 	// console.log(event.target.className);
 	if(event.target.className === "edit") {
-		console.log(event.target.parentNode.childNodes[0].textContent);
-		var editEl = event.target.parentNode;
-		editEl.setAttribute("contentEditable", true);
-		editEl.focus();
+		console.log(event.target.parentNode.getElementsByTagName("span")[0]);
+		if(event.target.parentNode.getElementsByTagName("span")[0]) {
+			console.log("Let's edit!");
+		} else {
+			console.log("No chance Lance");
+		}
+		// var edt = document.getElementsByTagName("span");
+		// console.log(edt);
+		// var editEl = event.target.parentNode;
+		// editEl.setAttribute("contentEditable", true);
+		// editEl.focus();
 		// if(listEl.contentEditable = "false") {
 			// listEl.contentEditable = "true";
 		// } else {
@@ -56,7 +65,7 @@ function editListItem(event) {
 // function createDelBtn() {}
 function toggleListItem(event) {
 	// console.log(event.target);
-	if(event.target.tagName === "LI") {
+	if(event.target.tagName === "SPAN") {
 		event.target.classList.toggle("done");
 	}
 }
