@@ -1,6 +1,6 @@
 // Using the Shopping List files from the previous videos update the shopping list app to do the following:
 
-// 1. If you click on the list item, it toggles the .done  class on and off.
+// 1. If you click on the list item, it toggles the .done class on and off.
 
 // 2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
 
@@ -9,48 +9,66 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("inputText")
 var ul = document.querySelector("ul");
-// var li = document.querySelectorAll("li");
+var li = document.querySelector("li");
+var del = document.getElementsByClassName("del");
+var edit = document.getElementsByClassName("edit");
 
 function addListItem() {
 	// 1. Create a new list item
 	var listItem = document.createElement("li");
 	// 2. Get value of the input
 	var inputItem = document.createTextNode(input.value);
+	// Create Delete & Edit Buttons to add to list items
+	var editBtn = document.createElement("button");
+	editBtn.classList.add("edit");
+	editBtn.innerHTML = "Edit";
+	var delBtn = document.createElement("button");
+	delBtn.classList.add("del");
+	delBtn.innerHTML = "Del";
 	// 3. Add value to the new list item
 	listItem.appendChild(inputItem);
 	// 4. Add new list item to the bottom of the ul
 	ul.appendChild(listItem);
+	listItem.appendChild(editBtn);
+	listItem.appendChild(delBtn);
 	// 5. Clear input field
 	input.value = "";
 	// focus style on input field
 	input.focus();
 }
 
-// li.forEach(function(item, i) {
-// 	li.toggle(item);
-// });
-// document.addEventListener("click", function () {
-// 	for(var i = 0; i < li.length; i++) {
-// 		if(li.indexOf(i) === i) {
-// 			console.log(li[i].value);
-// 		}
-// 	}
-// });
+function editListItem(event) {
+	// console.log(event.target.className);
+	if(event.target.className === "edit") {
+		console.log(event.target.parentNode.childNodes[0].textContent);
+		var editEl = event.target.parentNode;
+		editEl.setAttribute("contentEditable", true);
+		editEl.focus();
+		// if(listEl.contentEditable = "false") {
+			// listEl.contentEditable = "true";
+		// } else {
+			// listEl.contentEditable = "false";
+		// }
+		// ul.removeChild(event.target.parentNode);
+	}
+}
 
-// var li = document.querySelectorAll("li");
-// console.log(li[0])
-	
-// li.forEach(function(item, i) {
-	document.addEventListener("click", function (event) {
-		// console.log(item, i, li[i]);
-		console.log(event.target);
-		// console.log(event.target.tagName);
-		if(event.target.tagName === "LI") {
-			event.target.classList.toggle("done");
-			// console.log("List item clicked!!!");
-		}
-	});
-// });
+// function createDelBtn() {}
+function toggleListItem(event) {
+	// console.log(event.target);
+	if(event.target.tagName === "LI") {
+		event.target.classList.toggle("done");
+	}
+}
+
+function deleteListItem(event) {
+	// console.log(event.target.className);
+	if(event.target.className === "del") {
+		// console.log("delete button clicked!");
+		ul.removeChild(event.target.parentNode);
+	}
+}
+
 function inputValueLength() {
 	return input.value.length;
 }
@@ -63,10 +81,17 @@ function addAfterClick() {
 }
 function addAfterEnter(event) {
 	if(inputValueLength() > 0 && event.which === 13) {
-		console.log("enter!");
+		// console.log("enter!");
 		addListItem();
 	}
 }
 button.addEventListener("click", addAfterClick);
 
 input.addEventListener("keypress", addAfterEnter);
+
+ul.addEventListener("click", toggleListItem);
+
+ul.addEventListener("click", deleteListItem);
+
+ul.addEventListener("click", editListItem);
+
