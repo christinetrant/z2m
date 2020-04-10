@@ -46,13 +46,16 @@ function addListItem() {
 function editBtn(event) {
 	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
 	
-		console.log("Let's edit!");
+		console.log("Let's edit!", event.target.parentNode.getElementsByClassName("del")[0]);
 		editContent.contentEditable = "true";
 		editContent.focus();
+		// Change text on button to show it is in edit mode
 		event.target.innerHTML = "Tick";
 		event.target.classList.remove('edit');
 		event.target.classList.add('tick');
-	
+
+		// Hide delete button while editing
+		event.target.parentNode.getElementsByClassName("del")[0].classList.add('hidden');
 }
 
 function UneditBtn(event) {
@@ -61,7 +64,8 @@ var editContent = event.target.parentNode.getElementsByTagName("span")[0];
 		event.target.innerHTML = "Edit";
 		event.target.classList.remove('tick');
 		event.target.classList.add('edit');
-	
+		// Show delete button while editing
+		event.target.parentNode.getElementsByClassName("del")[0].classList.remove('hidden');
 }
 
 // Edit an existing list item
@@ -84,7 +88,15 @@ function editListItem(event) {
 
 function toggleListItem(event) {
 	// console.log(event.target);
-	if(event.target.tagName === "SPAN") {
+	var x = event.target;
+	if(x.tagName === "SPAN") {
+		if(x.contentEditable === 'true') {
+			console.log("Is this working?");
+			x.style.textDecoration = 'none';
+		} else if(x.contentEditable === 'false') {
+			console.log("Back again?");
+			x.style.textDecoration = 'line-through';
+		}
 		event.target.classList.toggle("done");
 	}
 }
