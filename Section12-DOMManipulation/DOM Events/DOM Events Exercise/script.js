@@ -12,6 +12,7 @@ var ul = document.querySelector("ul");
 var li = document.querySelector("li");
 var del = document.getElementsByClassName("del");
 var edit = document.getElementsByClassName("edit");
+var tick = document.getElementsByClassName("tick");
 
 function addListItem() {
 	// 1. Create a new list item and span
@@ -49,65 +50,122 @@ function editBtn(event) {
 	// editContent.contentEditable = "true";
 	input.focus();
 
-	
 	// Change text on button to show it is in edit mode
 	event.target.innerHTML = "Confirm";
 	event.target.classList.remove('edit');
 	event.target.classList.add('tick');
-	// Hide delete button while editing
+	// Hide DELETE button while editing
 	event.target.parentNode.getElementsByClassName("del")[0].classList.add('hidden');
 	button.classList.add('hidden');
 }
 
-function UneditBtn(event) {
-var editContent = event.target.parentNode.getElementsByTagName("span")[0];
+function confirmEditBtn(event) {
+	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
 	// editContent.contentEditable = "false";
 	editContent.textContent = input.value;
+	// 7. Clear input field
+	input.value = "";
+	// 8. Focus style on input field
+	input.focus();
 
 	event.target.innerHTML = "Edit";
 	event.target.classList.remove('tick');
 	event.target.classList.add('edit');
-	// Show delete button while editing
+	// Show DELETE button while editing
 	event.target.parentNode.getElementsByClassName("del")[0].classList.remove('hidden');
 	button.classList.remove('hidden');
 }
+
+
+
+
+function confirmEditEnter(event) {
+
+	// Need to change all buttons to regular state as they don't change on enter key
+	
+		tick.innerHTML = "Edit";
+		// event.target.classList.remove('tick');
+		tick = edit;
+		// event.target.classList.add('edit');
+		// Show DELETE button after editing
+		console.log();
+		// event.target.parentNode.getElementsByClassName("del")[0].classList.remove('hidden');
+		// del.classList.add('visible');
+		button.classList.remove('hidden');
+	
+
+
+var editContent = event.target.parentNode.getElementsByTagName("span")[0];
+	// editContent.contentEditable = "false";
+	editContent.textContent = input.value;
+	// 7. Clear input field
+	input.value = "";
+	// 8. Focus style on input field
+	input.focus();
+
+	
+}
+
+
+
 
 // Edit an existing list item
 function editListItem(event) {
 	// console.log(event.target.className);
 	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
+	
 	if(editContent) {
 		if(event.target.className === "edit") {
+			console.log(event.target.className);
 			console.log(editContent);
 			editBtn(event);
+
+			// addListItem = function () { };
+
+			input.removeEventListener("keypress", addAfterEnter);
+			console.log("Event Listener removed");
+			input.addEventListener("keypress", function(event) {
+				if(inputValueLength() > 0 && event.which === 13) {
+					confirmEditEnter(event);
+					console.log("Are we getting anywhere?");
+				}
+			});
+
+
 		// } else if(event.target.className === "tick" && editContent.childNodes[0].length > 0) {
-		} else if(event.target.className === "tick" && inputValueLength() > 0)  {
-			UneditBtn(event);
-		}
+		
+
+		// } else if(event.target.className === "tick" && inputValueLength() > 0)  {
+		// 	confirmEditBtn(event);
+		// }
+
+		} else if(event.target.className === "tick") {
+			if(inputValueLength() > 0) {
+			// if(inputValueLength() > 0 || (inputValueLength() > 0 && event.which === 13)) {
+			confirmEditBtn(event);
+			console.log("here is the ", event);
+			} else {
+				console.log("Can't be empty!")
+				editBtn(event);
+			}
+		} 
+
+
+
 	} else {
 		console.log("No chance Lance");
 	} 
 }
 
 function toggleListItem(event) {
-	// console.log(event.target);
-	var x = event.target;
-	if(x.tagName === "SPAN") {
-		if(x.contentEditable === 'true') {
+	if(event.target.tagName === "SPAN") {
 			console.log("Is this working?");
-			x.style.textDecoration = 'none';
-		} else if(x.contentEditable === 'false') {
-			// x.style.textDecoration = 'line-through';
 			event.target.classList.toggle("done");
-		}
-		
 	}
 }
 
 function deleteListItem(event) {
-	// console.log(event.target.className);
 	if(event.target.className === "del") {
-		// console.log("delete button clicked!");
 		ul.removeChild(event.target.parentNode);
 	}
 }
