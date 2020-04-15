@@ -60,6 +60,7 @@ button {
   box-shadow: 1px 2px 0px 0px #C8966D;
 }
 .hidden { visibility: hidden; }
+.opacity { opacity: 0.5; }
 .done { text-decoration: line-through; }
 
 /* Effect from https://codepen.io/markmead/pen/xympyG */

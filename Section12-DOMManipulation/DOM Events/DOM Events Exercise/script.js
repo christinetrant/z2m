@@ -5,6 +5,8 @@
 // 3. BONUS: When adding a new list item, it automatically adds the delete button next to it (hint: be sure to check if new items are clickable too!)
 // 4. MY PESONAL BONUS: Make existing items editable
 
+// NEED TO DIABLE OTHER BUTTONS WHEN IN EDIT MODE
+
 // DOM Strings
 var button = document.getElementById("enter");
 var input = document.getElementById("inputText")
@@ -12,7 +14,16 @@ var ul = document.querySelector("ul");
 var li = document.querySelector("li");
 var del = document.getElementsByClassName("del");
 var edit = document.getElementsByClassName("edit");
-var tick = document.getElementsByClassName("tick");
+
+var tickBtn = li.childNodes[3];
+var delBtn = li.childNodes[5];
+
+function clearInput() {
+	// Clear input field
+	input.value = "";
+	// Focus style on input field
+	input.focus();
+}
 
 function addListItem() {
 	// 1. Create a new list item and span
@@ -35,127 +46,85 @@ function addListItem() {
 	listItem.appendChild(delBtn);
 	// 6. Add new list item to the bottom of the ul
 	ul.appendChild(listItem);
-	// 7. Clear input field
-	input.value = "";
-	// 8. Focus style on input field
-	input.focus();
+	// 7. Clear the input and add fosus()
+	clearInput();
 }
 
-function editBtn(event) {
-	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
-	// console.log("Let's edit!", event.target.parentNode.getElementsByClassName("del")[0]);
-	// Have the input equal the text so it can be edited
-	input.value = editContent.textContent;
-	// console.log(editContent.textContent);
-	// editContent.contentEditable = "true";
-	input.focus();
-
-	// Change text on button to show it is in edit mode
-	event.target.innerHTML = "Confirm";
-	event.target.classList.remove('edit');
-	event.target.classList.add('tick');
-	// Hide DELETE button while editing
-	event.target.parentNode.getElementsByClassName("del")[0].classList.add('hidden');
-	button.classList.add('hidden');
-}
-
-function confirmEditBtn(event) {
-	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
-	// editContent.contentEditable = "false";
-	editContent.textContent = input.value;
-	// 7. Clear input field
-	input.value = "";
-	// 8. Focus style on input field
-	input.focus();
-
-	event.target.innerHTML = "Edit";
-	event.target.classList.remove('tick');
-	event.target.classList.add('edit');
-	// Show DELETE button while editing
-	event.target.parentNode.getElementsByClassName("del")[0].classList.remove('hidden');
-	button.classList.remove('hidden');
-}
-
-
-
-
-function confirmEditEnter(event) {
-
-	// Need to change all buttons to regular state as they don't change on enter key
-	
-		tick.innerHTML = "Edit";
-		// event.target.classList.remove('tick');
-		tick = edit;
-		// event.target.classList.add('edit');
-		// Show DELETE button after editing
-		console.log();
-		// event.target.parentNode.getElementsByClassName("del")[0].classList.remove('hidden');
-		// del.classList.add('visible');
-		button.classList.remove('hidden');
-	
-
-
-var editContent = event.target.parentNode.getElementsByTagName("span")[0];
-	// editContent.contentEditable = "false";
-	editContent.textContent = input.value;
-	// 7. Clear input field
-	input.value = "";
-	// 8. Focus style on input field
-	input.focus();
-
-	
-}
-
-
-
-
-// Edit an existing list item
+// Edit an existing list item [FIRST STEP]
 function editListItem(event) {
-	// console.log(event.target.className);
 	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
-	
+	console.log(editContent);
+	// If editContent is true while in it:
 	if(editContent) {
+		// if edit mode hasn't been selected yet
 		if(event.target.className === "edit") {
-			console.log(event.target.className);
-			console.log(editContent);
-			editBtn(event);
-
-			// addListItem = function () { };
-
-			input.removeEventListener("keypress", addAfterEnter);
-			console.log("Event Listener removed");
-			input.addEventListener("keypress", function(event) {
-				if(inputValueLength() > 0 && event.which === 13) {
-					confirmEditEnter(event);
-					console.log("Are we getting anywhere?");
-				}
-			});
-
-
-		// } else if(event.target.className === "tick" && editContent.childNodes[0].length > 0) {
-		
-
-		// } else if(event.target.className === "tick" && inputValueLength() > 0)  {
-		// 	confirmEditBtn(event);
-		// }
-
+			editItem(event);
+			// else if buttons are still in edit mode
 		} else if(event.target.className === "tick") {
 			if(inputValueLength() > 0) {
-			// if(inputValueLength() > 0 || (inputValueLength() > 0 && event.which === 13)) {
-			confirmEditBtn(event);
-			console.log("here is the ", event);
+				confirmEdit(event);
 			} else {
 				console.log("Can't be empty!")
-				editBtn(event);
+				editItem(event);
 			}
 		} 
-
-
-
 	} else {
 		console.log("No chance Lance");
 	} 
 }
+
+// EDIT LIST ITEM [SECOND STEP]
+function editItem(event) {
+	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
+	// 1. Have the input equal the text so it can be edited
+	input.value = editContent.textContent;
+	// 2. Focus on the input area
+	input.focus();
+	// 3. Change text on button to show it is in edit mode
+	button.innerHTML = "Confirm";
+	// Change classes from edit to tick[e.g. confirm]
+	event.target.classList.remove('edit');
+	event.target.classList.add('tick');
+	// Hide DELETE & ENTER button while editing
+	// event.target.parentNode.getElementsByClassName("del")[0].classList.add('hidden');
+	ul.classList.add('opacity');
+	// button.classList.add('hidden');
+	// Remove event listener for AddAfterEnter key as we need a new action - updateAfterEnter
+	input.removeEventListener("keypress", addAfterEnter);
+	button.removeEventListener("click", addAfterClick);
+	ul.removeEventListener("click", toggleListItem);
+	ul.removeEventListener("click", deleteListItem);
+	ul.removeEventListener("click", editListItem);
+	console.log("addAfterEnter Event Listener removed");
+	input.addEventListener("keypress", updateAfterEnter);
+	button.addEventListener("click", updateAfterClick);
+}
+
+// UPDATE LIST ITEM [THIRD STEP]
+function confirmEdit(event) {
+	var editContent = event.target.parentNode.getElementsByTagName("span")[0];
+	// The list item is updated
+	editContent.textContent = input.value;
+	// Need to change all buttons to regular state as they don't change on enter key
+	button.innerHTML = "Enter";
+	tickBtn.classList.remove("tick");
+	tickBtn.classList.add("edit");
+	// hide unnecessary buttons
+	// delBtn.classList.remove("hidden");
+	// button.classList.remove('hidden');
+	// Remove event listener for AddAfterEnter key as we need a new action - updateAfterEnter
+	input.removeEventListener("keypress", updateAfterEnter);
+	button.removeEventListener("click", updateAfterClick);
+	console.log("addAfterEnter Event Listener reinstated");
+	input.addEventListener("keypress", addAfterEnter);
+	button.addEventListener("click", addAfterClick);
+	ul.addEventListener("click", toggleListItem);
+	ul.addEventListener("click", deleteListItem);
+	ul.addEventListener("click", editListItem);
+	// 7. Clear the input and add focus()
+	clearInput();
+}
+
 
 function toggleListItem(event) {
 	if(event.target.tagName === "SPAN") {
@@ -186,6 +155,18 @@ function addAfterEnter(event) {
 		addListItem();
 	}
 }
+function updateAfterClick() {
+	if(inputValueLength() > 0) {
+		confirmEdit(event);
+		console.log("click click!");
+	}
+}
+function updateAfterEnter(event) {
+	if(inputValueLength() > 0 && event.which === 13) {
+		confirmEdit(event);
+	}
+}
+
 button.addEventListener("click", addAfterClick);
 
 input.addEventListener("keypress", addAfterEnter);
