@@ -1,0 +1,24 @@
+body {
+	/*background-image: radial-gradient(#ba5370, #f4e2d8);*/
+	background-image: linear-gradient(to right, #43cea2, #185a9d);
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: 'PT Mono', monospace;
+	font-size: 1.25em;
+}
+
+.wrapper {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.color1, .color2 {
+	width: 50px;
+	height: 50px;
+	margin: 0 15px;
+	background: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	box-shadow: 10px 10px 8px #888888; 
+}
