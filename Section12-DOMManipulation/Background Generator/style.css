@@ -21,14 +21,14 @@ body {
 	border: 1px solid #f1f1f1;
 	box-shadow: 10px 10px 8px #888; 
 }
-.buttons { margin-top: 50px; }
+.buttons { margin-top: 20px; }
 .btn {
 	border-radius: 10px;
 	border: none;
 	font-weight: 700;
 	background-color: #e7e7e7;
 	padding: 10px 20px;
-	margin: 0 10px;
+	margin: 10px;
 	box-shadow: 5px 5px 8px #888;
 }
 .btn:hover, .btn:focus, .btn:active, .active  {
