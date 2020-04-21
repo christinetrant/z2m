@@ -19,139 +19,181 @@ var linearBtn = document.getElementById('linearBtn');
 var twoColorBtn = document.getElementById('twoColorBtn');
 var threeColorBtn = document.getElementById('threeColorBtn');
 
-// Linear Gradient Function
+// If Two Color Button Selected
+function two() {
+	// If the linear button is active we want the output to be linear gradient
+	if(linearBtn.classList.contains('active')) {
+			linearTwo();
+			console.log("2 button function - linear");
+	} else if(radialBtn.classList.contains('active')) {
+			radialTwo();
+			console.log("2 button function - radial");
+	}	
+}
+// If Three Color Button Selected
+function three() {
+	if(linearBtn.classList.contains('active')) {
+			linearThree();
+			console.log("3 button function - linear");
+	} else if(radialBtn.classList.contains('active')) {
+			radialThree();
+			console.log("3 button function - radial");
+	}	
+}
+// If Linear Button Selected
 function linear() {
-	var linearBg = "linear-gradient(to right, " + color1.value +", " +color2.value +")";
-	// Change the background to have new colors
-	body.style.backgroundImage = linearBg;
-	// Change the classes so the linear button has active class
-	linearBtn.classList.add('active');
-	radialBtn.classList.remove('active');
-	// Display color values in h3 tag
-	h3Title.textContent = "Linear Gradient: ";
-	h3Colors.textContent = color1.value + "   ➡   " + color2.value;
+	// If the linear button is active we want the output to be linear gradient
+	if(twoColorBtn.classList.contains('active')) {
+			linearTwo();
+			console.log("Linear function - 2 button");
+	} else if(threeColorBtn.classList.contains('active')) {
+		linearThree();
+		console.log("Linear function - 3 button");
+	}
 }
-
-// Radial Gradient Function
+// If Radial Button Selected
 function radial() {
-	var radialBg = "radial-gradient(" + color1.value +", " + color2.value + ")";	
-	// Change the background to have new colors
-	body.style.backgroundImage = radialBg;
-
-	// Change the classes so the radial button has active class
-	radialBtn.classList.add('active');
-	linearBtn.classList.remove('active');
-	// Display color values in h3 tag
-	h3Title.textContent = "Radial Gradient: ";
-	h3Colors.textContent = color1.value + "   ➡   " + color2.value;
+	// otherwise we'd like it to be a radial gradient 
+	if(twoColorBtn.classList.contains('active')) {
+			radialTwo();
+			console.log("Radial function - 2 button");
+	} else if(threeColorBtn.classList.contains('active')) {
+			radialThree();
+			console.log("Radial function - 3 button");
+	}	
 }
 
-function linearThree() {
-	console.log("Three!");
-	var linearBg3 = "linear-gradient(to right, " + color1a.value +", " +color2a.value +", " + color3a.value + ")";
+// If Linear & Two Color Button Selected
+function linearTwo() {
+	console.log("Linear function - 2 button");
 	// Change the background to have new colors
-	body.style.backgroundImage = linearBg3;
+	body.style.backgroundImage = "linear-gradient(to right, " + color1.value +", " +color2.value +")";
 	// Change the classes so the linear button has active class
 	linearBtn.classList.add('active');
 	radialBtn.classList.remove('active');
-	// Display color values in h3 tag
-	h3Title.textContent = "Linear Gradient: ";
-	h3Colors.textContent = color1a.value + "   ➡   " + color2a.value + "   ➡   " + color3a.value;
-}
-function radialThree() {
-	console.log("R Three!");
-	var radialBg3 = "radial-gradient(" + color1a.value +", " + color2a.value +", " + color3a.value + ")";	
-	// Change the background to have new colors
-	body.style.backgroundImage = radialBg3;
 
-	// Change the classes so the radial button has active class
-	radialBtn.classList.add('active');
-	linearBtn.classList.remove('active');
-	// Display color values in h3 tag
-	h3Title.textContent = "Radial Gradient: ";
-	h3Colors.textContent = color1a.value + "   ➡   " + color2a.value+ "   ➡   " + color3a.value;
-}
-
-
-function twoColor() {
 	twoColorBtn.classList.add('active');
 	threeColorBtn.classList.remove('active');
 	twoColorDiv.classList.remove('hidden');
 	threeColorDiv.classList.add('hidden');
 
-	// if(linearBtn.className === ('btn active')) {
-	// 	linear();
-	// 	console.log("TEST3");
-	// }	else if(radialBtn.className === ('btn active')) {
-	// 	radial();
-	// 	console.log("TEST4");
-	// }	
-	
+	// Display color values in h3 tag
+	h3Title.textContent = "Linear Gradient: ";
+	h3Colors.textContent = color1.value + "   ➡   " + color2.value;
 }
-function threeColor() {
+
+// If Linear & Three Color Button Selected
+function linearThree() {
+	console.log("Linear function - 3 button");
+	// Change the background to have new colors
+	body.style.backgroundImage = "linear-gradient(to right, " + color1a.value +", " +color2a.value +", " + color3a.value + ")";
+
+	// Change the classes so the linear button has active class
+	linearBtn.classList.add('active');
+	radialBtn.classList.remove('active');
+
 	threeColorBtn.classList.add('active');
 	twoColorBtn.classList.remove('active');
 	threeColorDiv.classList.remove('hidden');
-	twoColorDiv.classList.add('hidden');
+	twoColorDiv.classList.add('hidden');	
 
-// 	if(linearBtn.className === ('btn active')) {
-// 		linearThree();
-// 		console.log("TEST1");
-// 	}	else if(radialBtn.className === ('btn active')) {
-// 		radialThree();
-// 		console.log("TEST2");
-// 	}
+	// Display color values in h3 tag
+	h3Title.textContent = "Linear Gradient: ";
+	h3Colors.textContent = color1a.value + "   ➡   " + color2a.value + "   ➡   " + color3a.value;
 }
+
+// If Radial & Two Color Button Selected
+function radialTwo() {
+	console.log("Radial function - 2 button");
+	// Change the background to have new colors
+	body.style.backgroundImage = "radial-gradient(" + color1.value +", " + color2.value + ")";	
+
+	// Change the classes so the radial button has active class
+	radialBtn.classList.add('active');
+	linearBtn.classList.remove('active');
+
+	twoColorBtn.classList.add('active');
+	threeColorBtn.classList.remove('active');
+	twoColorDiv.classList.remove('hidden');
+	threeColorDiv.classList.add('hidden');	
+
+	// Display color values in h3 tag
+	h3Title.textContent = "Radial Gradient: ";
+	h3Colors.textContent = color1.value + "   ➡   " + color2.value;
+}
+
+// If Radial & Three Color Button Selected
+function radialThree() {
+	console.log("Radial function - 3 button");
+	// Change the background to have new colors
+	body.style.backgroundImage = "radial-gradient(" + color1a.value +", " + color2a.value +", " + color3a.value + ")";	
+	// Display color values in h3 tag
+
+	// Change the classes so the radial button has active class
+	radialBtn.classList.add('active');
+	linearBtn.classList.remove('active');
+
+	threeColorBtn.classList.add('active');
+	twoColorBtn.classList.remove('active');
+	threeColorDiv.classList.remove('hidden');
+	twoColorDiv.classList.add('hidden');	
+
+	// Display color values in h3 tag
+	h3Title.textContent = "Radial Gradient: ";
+	h3Colors.textContent = color1a.value + "   ➡   " + color2a.value+ "   ➡   " + color3a.value;
+}
+
 // When the color is changed through the input element
 function colorInput() {
 	// If the linear button is active we want the output to be linear gradient
-	if(linearBtn.classList.contains('active') 
-		&& twoColorBtn.classList.contains('active')) {
-			linear();
-			console.log("ONE");
-	} else if(linearBtn.classList.contains('active') 
-		&& threeColorBtn.classList.contains('active')) {
+	if(linearBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+			linearTwo();
+		console.log("input function - 2 button linear");
+	} else if(linearBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
 		linearThree();
-		console.log("TWO");
+		console.log("input function - 3 button linear");
 	// otherwise we'd like it to be a radial gradient 
-	} else if(radialBtn.classList.contains('active') 
-		&& twoColorBtn.classList.contains('active')) {
-			radial();
-			console.log("THREE");
-	} else if(radialBtn.classList.contains('active')
-		&& threeColorBtn.classList.contains('active')) {
+	} else if(radialBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+			radialTwo();
+			console.log("input function - 2 button radial");
+	} else if(radialBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
 			radialThree();
-			console.log("FOUR");
+			console.log("input function - 3 button radial");
 	}	
 }
 
 // Hover over buttons
 function hover(event) {
-	var linearBg = "linear-gradient(to right, " + color1.value +", " +color2.value +")";
-	var radialBg = "radial-gradient(" + color1.value +", " +color2.value +")";
+	var linearTwoBg = "linear-gradient(to right, " + color1.value +", " +color2.value +")";
+	var linearThreeBg = "linear-gradient(to right, " + color1a.value +", " +color2a.value +", " +color3a.value +")";
+	var radialTwoBg = "radial-gradient(" + color1.value +", " +color2.value +")";
+	var radialThreeBg = "radial-gradient(" + color1a.value +", " +color2a.value +", " +color3a.value +")";
 
-	if(linearBtn.className === ('btn active')) {
-		event.target.style.backgroundImage = linearBg;
+	if(linearBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+		event.target.style.backgroundImage = linearTwoBg;
 		linearBtn.style.backgroundImage= "none";
-	} else if(radialBtn.className === ('btn active')) {
-		event.target.style.backgroundImage = radialBg;
+	} else if(linearBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
+		event.target.style.backgroundImage = linearThreeBg;
+		linearBtn.style.backgroundImage= "none";
+	// otherwise we'd like it to be a radial gradient 
+	} else if(radialBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+		event.target.style.backgroundImage = radialTwoBg;
 		radialBtn.style.backgroundImage= "none";
-	}
+	} else if(radialBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
+		event.target.style.backgroundImage = radialThreeBg;
+		radialBtn.style.backgroundImage= "none";
+	}	
 }
 function nohover(event) {
 	event.target.style.backgroundImage = "none"
 }
 
-
-// HAVE TRIPLE GRADIENT OPTION?
-// #3a1c71 → #d76d77 → #ffaf7b
-
 // EVENT LISTENERS
 document.addEventListener('input', colorInput);
 linearBtn.addEventListener('click', linear);
 radialBtn.addEventListener('click', radial);
-twoColorBtn.addEventListener('click', twoColor);
-threeColorBtn.addEventListener('click', threeColor);
+twoColorBtn.addEventListener('click', two);
+threeColorBtn.addEventListener('click', three);
 // Loop through all buttons and add gradient effect on hover and remove when mouse leaves
 for(var i=0; i<button.length; i++) {
 	button[i].addEventListener('mouseenter', hover);
@@ -159,5 +201,4 @@ for(var i=0; i<button.length; i++) {
 }
 
 // want linear gradient & two color option to be the initial view
-linear();
-twoColor();
+linearTwo();
