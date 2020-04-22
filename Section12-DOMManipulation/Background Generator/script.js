@@ -1,3 +1,9 @@
+// 1. Write code so that the colour inputs match the background generated on the first page load. 
+
+// 2. Display the initial CSS linear gradient property on page load.
+
+// 3. BONUS: Add a random button which generates two random numbers for the colour inputs.
+
 // DOM Strings
 var body = document.querySelector('body');
 var color1 = document.querySelector('.color1');
@@ -18,6 +24,7 @@ var radialBtn = document.getElementById('radialBtn');
 var linearBtn = document.getElementById('linearBtn');
 var twoColorBtn = document.getElementById('twoColorBtn');
 var threeColorBtn = document.getElementById('threeColorBtn');
+var randomBtn = document.getElementById('randomBtn');
 
 // If linear button is active 
 function linearBtnActive() {
@@ -149,6 +156,83 @@ function colorInput() {
 	}	
 }
 
+// Generate a random hex code for rnadom color function - Found on https://dev.to/thecodepixi/what-the-hex-how-to-generate-random-hex-color-codes-in-javascript-21n
+function generateHexCode(){
+  let randomHexCode = "#" 
+  while( randomHexCode.length < 7 ) { 
+     randomHexCode += (Math.floor(Math.random() * 15).toString(16) )
+  }
+  return randomHexCode 
+}
+
+// Random Button Function
+function random() {
+	let randomColor1 = generateHexCode(); 
+	let randomColor3 = generateHexCode(); 
+	let randomColor2 = generateHexCode(); 
+
+	// If the linear button is active we want the output to be linear gradient
+	if(linearBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+		// Change the background to have new colors
+		body.style.backgroundImage = "linear-gradient(to right, " + randomColor1 +", " +randomColor2 +")";
+		// Change the classes so the linear button has active class
+		linearBtnActive();
+		// Change the classes so the two color button has active class
+		twoBtnActive();
+		// Display color values in h3 tag
+		h3Colors.textContent = randomColor1 + "   ➡   " + randomColor2;
+
+		color1.value = randomColor1;
+		color2.value = randomColor2;
+		// console.log("RANDOM function - 2 button linear", randomColor1, randomColor2);
+	} else if(linearBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
+		// Change the background to have new colors
+		body.style.backgroundImage = "linear-gradient(to right, " + randomColor1 +", " + randomColor2 +", " + randomColor3 + ")";
+		// Change the classes so the linear button has active class
+		linearBtnActive();
+		// Change the classes so the three color button has active class
+		threeBtnActive();
+		// Display color values in h3 tag
+		h3Colors.textContent = randomColor1 + "   ➡   " + randomColor2 + "   ➡   " + randomColor3;
+
+		color1a.value = randomColor1;
+		color2a.value = randomColor2;
+		color3a.value = randomColor3;
+		// console.log("RANDOM function - 3 button linear", randomColor1, randomColor2, randomColor3);
+	// otherwise we'd like it to be a radial gradient 
+	} else if(radialBtn.classList.contains('active') && twoColorBtn.classList.contains('active')) {
+		// Change the background to have new colors
+		body.style.backgroundImage = "radial-gradient(" + randomColor1 +", " + randomColor2 + ")";	
+		// Change the classes so the radial button has active class
+		radialBtnActive();
+		// Change the classes so the two color button has active class
+		twoBtnActive();
+		// Display color values in h3 tag
+		h3Colors.textContent = "" + randomColor1 + "   ➡   " + randomColor2;
+
+		color1.value = randomColor1;
+		color2.value = randomColor2;
+		// console.log("RANDOM function - 2 button radial", randomColor1, randomColor2);
+	} else if(radialBtn.classList.contains('active') && threeColorBtn.classList.contains('active')) {
+		// Change the background to have new colors
+		body.style.backgroundImage = "radial-gradient(" + randomColor1 +", " + randomColor2 +", " + randomColor3 + ")";	
+		// Change the classes so the radial button has active class
+		radialBtnActive();
+		// Change the classes so the three color button has active class
+		threeBtnActive();
+		// Display color values in h3 tag
+		h3Colors.textContent = randomColor1 + "   ➡   " + randomColor2 + "   ➡   " + randomColor3;
+
+		color1a.value = randomColor1;
+		color2a.value = randomColor2;
+		color3a.value = randomColor3;
+		// console.log("RANDOM function - 3 button radial", randomColor1, randomColor2);
+	}	
+}
+
+
+
+
 // Hover over buttons
 function hover(event) {
 	var linearTwoBg = "linear-gradient(to right, " + color1.value +", " +color2.value +")";
@@ -185,6 +269,9 @@ linearBtn.addEventListener('click', linear);
 radialBtn.addEventListener('click', radial);
 twoColorBtn.addEventListener('click', two);
 threeColorBtn.addEventListener('click', three);
+// randomBtn.addEventListener('click', random);
+randomBtn.addEventListener('click', random);
+
 // Loop through all buttons and add gradient effect on hover and remove when mouse leaves
 for(var i=0; i<button.length; i++) {
 	button[i].addEventListener('mouseenter', hover);
