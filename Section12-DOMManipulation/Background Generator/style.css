@@ -17,7 +17,7 @@ body {
 .color1, .color2, .color1a, .color2a, .color3a {
 	width: 100px;
 	height: 100px;
-	margin: 0 25px;
+	margin: 10px 25px;
 	background: #f1f1f1;
 	border: 1px solid #f1f1f1;
 	box-shadow: 10px 10px 8px #888; 
