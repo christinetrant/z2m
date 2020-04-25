@@ -77,3 +77,9 @@ const sym1 = Symbol("This is my first Symbol");
 //     }
 // }
 const whereAmI = (username, location) => username && location ? "I am not lost" : "I am totally lost!";
+
+// or
+// if not on one line curly brackets have to be added and return the ternary statement
+const whereAmI = (username, location) => {
+	return username && location ? "I am not lost" : "I am totally lost!";
+}
