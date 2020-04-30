@@ -27,30 +27,54 @@ const array = [
 ];
 
 //Create an array using forEach that has all the usernames with a "!" to each of the usernames
-
+let newArray = [];
+array.forEach(arr => {
+  // object destructuring
+  let { username } = arr;
+  newArray.push(username + '!');
+});
+console.log('forEach', newArray);
 
 //Create an array using map that has all the usernames with a "? to each of the usernames
-
+const mapArray = array.map(arr => {
+  let { username } = arr;
+  return username = (username+'?');
+});
+console.log('map', mapArray);
 
 //Filter the array to only include users who are on team: red
-
+const filterArray = array.filter(arr => arr.team === 'red');
+console.log('filter', filterArray);
 
 //Find out the total score of all users using reduce
+const reduceArray = array.reduce((acc, num) => {
+  return acc + num.score;
+}, 0);
+console.log('reduce', reduceArray);
 
 // (1), what is the value of i?
+// The index of array - 0, 1, 2, 3, 4, 5
 // (2), Make this map function pure:
 const arrayNum = [1, 2, 4, 5, 8, 9];
-const newArray = arrayNum.map((num, i) => {
-	console.log(num, i);
-	alert(num);
-	return num * 2;
-})
+// const newArray = arrayNum.map((num, i) => {
+// 	console.log(num, i);
+// 	alert(num);
+// 	return num * 2;
+// })
+const newArray = arrayNum.map((num, i) => num * 2);
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
+const mapArray2 = array.map(arr => {
+  const innerArray = arr.items.map(arr2 => {
+    // let {item} = arr2
+    return arr2+'!';
+  })
+  arr.items = innerArray;
+  return array;
+});
+console.log('map', mapArray2);
 
-
-
-
+// LECTURE NOTES:
 const array = [1, 2, 10, 16];
 
 // For Each Loop
@@ -113,14 +137,6 @@ console.log('reduce', reduceArray);
 
 
 // DELETE AFTER!
-//Create an array using forEach that has all the usernames with a "!" to each of the usernames
-let exclamation = [];
-const forEachArray = array.forEach(user => {
-	// var username = array[0]["username"];
-	let { username } = user;
-	exclamation.push(username + '!');
-});
-console.log('forEach', exclamation);
 
 //Create an array using map that has all the usernames with a "? to each of the usernames
 const mapUserArray = array.map(user => {
