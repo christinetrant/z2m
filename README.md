@@ -8,8 +8,6 @@ All resources and notes from the Complete Web Developer in 2020: Zero to Mastery
 Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/complete-web-developer-manual)
 ******************************************************************************************
 ## __Task List!__
-- [ ] Get files in order!
-- [ ] Add code snippets to this file or another file - maybe in the same github folder and have projects separated in there as well?
 - [x] [Section 5:](#html_quiz)
   - [x] HTML Challenge
   - [x] HTML Quiz
@@ -26,7 +24,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] Bootstrap Landing Page with Mailchimp integration
   - [x] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
   - [ ] CSS Grid Layout Challenge (Lesson 89. CSS Layout)
-  - [ ] [Challenge 11](https://github.com/zero-to-mastery/coding_challenge-11)
+  - [x] [Challenge 11](https://github.com/zero-to-mastery/coding_challenge-11)
   - [ ] [Challenge 16](https://github.com/zero-to-mastery/coding_challenge-16)
   - [ ] [Challenge 20](https://github.com/zero-to-mastery/coding_challenge-20)
   - [ ] [Challenge 2](https://github.com/zero-to-mastery/Coding_Challenge-2)
@@ -295,6 +293,8 @@ Reference websites:
 
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
+- [CSS Animals](https://christinetrant.github.io/CSSAnimals/)
+
 ******************************************************************************************
 ### <a name="css_quiz"></a>Exercises: CSS Quiz:
 *	[W3C Quiz](https://www.w3schools.com/css/css_quiz.asp)
@@ -332,6 +332,8 @@ Generating animated patterns:
 Installing Github:
 *	https://desktop.github.com/
 
+- [Bootstrap Landing Page](https://christinetrant.github.io/BootstrapLandingPage/)
+
 ******************************************************************************************
 ## 9.	__CSS Grid + CSS Layout__
 
@@ -350,12 +352,137 @@ Free Design resources:
 
 ******************************************************************************************
 ## 11.	__Javascript__
+
+Javascript types:
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+
+Javascript comparisons:
+- \!==
+- \===
+- \>=
+- \<=
+- \>
+- \<
+
+Javascript variables:
+- var
+- let (new in ECMAScript 6)
+- const (new in ECMAScript 6)
+- [YouTube explanation - Web Dev Simplified](https://www.youtube.com/watch?v=9WIJQDvt4Us&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=4)
+
+Javascript conditionals:
+- if
+- else
+- else if
+- ternary operator
+- switch
+
+Javascript logical operators:
+- &&
+- ||
+- !
+
+Javascript functions:
+- var a = function name() {}
+- function name() {}
+- return
+- () => (new in ECMAScript 6)
+
+Javascript data structures:
+- Array
+- Object
+
+Javascript looping:
+- for
+- while
+- do
+- forEach (new in ECMAScript 5)
+
+Javascript keywords:
+- break
+- case
+- catch
+- class
+- const
+- continue
+- debugger
+- default
+- delete
+- do
+- else
+- export
+- extends
+- finally
+- for
+- function
+- if
+- import
+- in
+- instanceof
+- new
+- return
+- super
+- switch
+- this
+- throw
+- try
+- typeof
+- var
+- void
+- while
+- with
+- yield
+
+- Exercises:
+ - [Number, String, Boolean, Comparisons Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise1.js)
+ - [Variables Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise2.js)
+ - [Make A Calculator](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise3.js)
+ - [Make A Keyless Car](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise4.js)
+ - [Make A Keyless Car 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise5.js)
+ - [Arrays](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise6.js)
+ - [Objects & Arrays - Facebook App](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7.js)
+ -[Objects & Arrays - Facebook App 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7b.js)
+
 ******************************************************************************************
 
 ******************************************************************************************
 ## 12.	__DOM Manipulation__
 
+DOM Selectors
+--------------
+getElementsByTagName
+getElementsByClassName
+getElementById
 
+querySelector
+querySelectorAll
+
+getAttribute
+setAttribute
+
+##Changing Styles
+style.{property} //ok
+
+className //best
+classList //best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //DANGEROUS
+
+parentElement
+children
+
+##It is important to CACHE selectors in variables
 
 Reference websites:
 *	https://developer.mozilla.org/en-US/docs/web/Events
@@ -364,8 +491,28 @@ Reference websites:
 *	http://youmightnotneedjquery.com/
 *	https://babeljs.io/
 
+- [Background Generator](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/Background%20Generator)
+ - [Demo](https://christinetrant.github.io/Background-Generator/)
+- [Shopping List](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/DOM%20Events%20Shopping%20List)
+ - [Demo](https://christinetrant.github.io/ToDoList/)
+
+
 ******************************************************************************************
-## 13.	__Advanced Javascript__
+## 13.	__[Advanced Javascript](https://github.com/christinetrant/z2m/tree/master/Section13-AdvancedJavascript)__
+
+- [Scope](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise1-Scope.js)
+- [Advanced Control Flow](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2-AdvancedControlFlow.js)
+- [Swtch Statement Guessing Game Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2b-SwitchStatementGuessingGame.js)
+- [ES5 & ES6](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise3-ES5%26ES6.js)
+- ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
+ - [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
+- Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
+- Advanced Array Methods 
+ - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+ - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
+ - [Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
+- Advanced Objects
+
 ******************************************************************************************
 
 ******************************************************************************************
@@ -581,7 +728,7 @@ Background patterns:
 
 
 Animated background library:
-*	https://vincentgarreau.com/particles.js/
+*	https://particles.matteobruni.it/
 
 	```
 	npm install react-particles-js
@@ -998,5 +1145,3 @@ The Complete Junior to Senior Web Developer Roadmap (2019):
 ******************************************************************************************
 ## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
-
-
