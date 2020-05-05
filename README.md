@@ -57,239 +57,239 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] [Advent of Code Challenge 24](https://github.com/zero-to-mastery/coding_challenge-24)
 
 ******************************************************************************************
-## 1.	__Introduction__
+## 1. __Introduction__
 
 Discord Channel:
-*	~~https://discord.gg/nVmbHYY~~ You will find it inside course
+* ~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
-## 2.	__How The Internet Works__
+## 2. __How The Internet Works__
 
 Tools:
-*	Chrome Developer Tools
+* Chrome Developer Tools
 
 Topics:
-*	ISP, DNS and Servers
-*	Traceroute (Windows: tracert)
+* ISP, DNS and Servers
+* Traceroute (Windows: tracert)
 
 Submarine Cable Map:
-*	https://www.submarinecablemap.com/
+* https://www.submarinecablemap.com/
 ******************************************************************************************
-## 3.	__History Of The Web__
+## 3. __History Of The Web__
 
 Maps that explain the Internet:
-*	https://www.vox.com/a/internet-maps
+* https://www.vox.com/a/internet-maps
 
 First Webpage in the world:
-*	http://info.cern.ch/hypertext/WWW/TheProject.html
+* http://info.cern.ch/hypertext/WWW/TheProject.html
 
 Optional Videos:
-*	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
-*	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
-*	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
+* https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
+* https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
+* https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
 ## 4. __HTML 5__
 ## Test
 
 Install a text editor (Select one):
-*	https://www.sublimetext.com/
-*	https://atom.io/
-*	https://code.visualstudio.com/
+* https://www.sublimetext.com/
+* https://atom.io/
+* https://code.visualstudio.com/
 
 Tags:
-*	`<html>`
-*	`<head>`
-*	`<title>`
-*	`<body>`
-*	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
-*	paragraph `<p>`
-*	bold `<strong>`, italic `<em>`
-*	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
-*	break `<br>`, horizontal rule `<hr>`
-*	image `<img>` and attributes: `src`, `width`, `height`
-*	anchor `<a href="">`
+* `<html>`
+* `<head>`
+* `<title>`
+* `<body>`
+* headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+* paragraph `<p>`
+* bold `<strong>`, italic `<em>`
+* ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
+* break `<br>`, horizontal rule `<hr>`
+* image `<img>` and attributes: `src`, `width`, `height`
+* anchor `<a href="">`
 
 Topics:
-*	Relative vs Absolute Path
+* Relative vs Absolute Path
 
 Zero to Mastery resources:
-*	https://github.com/zero-to-mastery/complete-web-developer-manual
-*	https://github.com/zero-to-mastery/zero-to-mastery-captions
+* https://github.com/zero-to-mastery/complete-web-developer-manual
+* https://github.com/zero-to-mastery/zero-to-mastery-captions
 
 Reference websites:
-*	https://www.w3schools.com/
-*	https://developer.mozilla.org/en-US/
+* https://www.w3schools.com/
+* https://developer.mozilla.org/en-US/
 
 How to ask questions:
-*	https://rubberduckdebugging.com/
-*	https://stackoverflow.com/
+* https://rubberduckdebugging.com/
+* https://stackoverflow.com/
 
 ******************************************************************************************
-## 5.	__Advanced HTML 5__
+## 5. __Advanced HTML 5__
 
 
 Tags:
-*	`<form>`
-	*	`method`, `action`
-*	`<input>`:
-	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
-	*	`required`, `value`, `name`, `min`
-*	dropdown `<select>`
-	*	option `<option>`
-*	comment `<!-- -->`
-*	`<div>` and `<span>`
+* `<form>`
+  * `method`, `action`
+* `<input>`:
+  * `type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
+  * `required`, `value`, `name`, `min`
+* dropdown `<select>`
+  * option `<option>`
+* comment `<!-- -->`
+* `<div>` and `<span>`
 
 Semantic Elements
-*	`<header>`
-*	`<nav>`
-*	`<main>`
-*	`<footer>`
+* `<header>`
+* `<nav>`
+* `<main>`
+* `<footer>`
 
 Topics:
-*	Chrome view Source
+* Chrome view Source
 
 Resources:
-*	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
-*	https://waitbutwhy.com/
+* https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+* https://waitbutwhy.com/
 
 > "__If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge."
 ******************************************************************************************
 ### <a name="html_quiz"></a>Exercises: HTML Quiz:
-*	[W3C Quiz](https://www.w3schools.com/html/html_quiz.asp)
-*	As a bonus, you can try some interactive HTML exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/html/exercise.asp)
-*	Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
+* [W3C Quiz](https://www.w3schools.com/html/html_quiz.asp)
+* As a bonus, you can try some interactive HTML exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/html/exercise.asp)
+* Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
 ******************************************************************************************
-## 6.	__CSS__
+## 6. __CSS__
 
 Syntax:
 ```css
 Selector {
-	property: value;
+  property: value;
 }
 ```
 
 How to:
-*	External
-	```html
-	<link rel="stylesheet type="text/css" href="style.css">
-	```
-*	Internal
-	```html
-	<style>
-		body {
-			background-color: purple;
-		}
-	</style>
-	```
-*	Inline
-	```html
-	<header style="background-color: green;">
-	```
+* External
+  ```html
+  <link rel="stylesheet type="text/css" href="style.css">
+  ```
+* Internal
+  ```html
+  <style>
+    body {
+      background-color: purple;
+    }
+  </style>
+  ```
+* Inline
+  ```html
+  <header style="background-color: green;">
+  ```
 
 Tools:
-*	Chrome Inspector
+* Chrome Inspector
 
 Properties:
-*	text-align
-*	border
-*	background
-*	list-style
-*	cursor
-*	color: html, hex, rgb or rgba
+* text-align
+* border
+* background
+* list-style
+* cursor
+* color: html, hex, rgb or rgba
 
 [Selectors:](https://www.w3schools.com/cssref/css_selectors.asp)
-*	`.class`
-*	`#id`
-*	`*` (all elements)
-*	`element`
-*	`element, element`
-*	`element element`
-*	`element > element`
-*	`element + element`
-*	`v:hover`
-*	`:last-child`
-*	`:first-child`
-*	`!important` (not recommended)
+* `.class`
+* `#id`
+* `*` (all elements)
+* `element`
+* `element, element`
+* `element element`
+* `element > element`
+* `element + element`
+* `v:hover`
+* `:last-child`
+* `:first-child`
+* `!important` (not recommended)
 
 Text Properties
-*	`text-decoration`
-*	`text-transform`
-*	`line-height`
-*	`font-style`
-*	`font-weight`
-*	`font-size`
-*	`font-family`
+* `text-decoration`
+* `text-transform`
+* `line-height`
+* `font-style`
+* `font-weight`
+* `font-size`
+* `font-family`
 
 Layout Properties
-*	`float` and `clear`
+* `float` and `clear`
 
 Box Model
-*	`margin`
-*	`border`
-*	`padding`
-*	`width` and `height`
+* `margin`
+* `border`
+* `padding`
+* `width` and `height`
 
 Sizes
-*	`px`
-*	`em` and `rem`
+* `px`
+* `em` and `rem`
 
 Topics:
-*	Cascading: Specificity, Importance `!`, Source Order
-*	Linking fonts and external stylesheets
+* Cascading: Specificity, Importance `!`, Source Order
+* Linking fonts and external stylesheets
 
 Exercises:
-*	https://flukeout.github.io/
+* https://flukeout.github.io/
 
 Reference websites:
-*	https://www.w3schools.com/cssref/css_selectors.asp
-*	https://css-tricks.com/
-*	https://www.supremo.co.uk/typeterms/
-*	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-*	https://unsplash.com/
+* https://www.w3schools.com/cssref/css_selectors.asp
+* https://css-tricks.com/
+* https://www.supremo.co.uk/typeterms/
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://unsplash.com/
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
-*	https://specificity.keegan.st/
+* https://specificity.keegan.st/
 
 Website for color check:
-*	http://paletton.com/
-*	https://coolors.co/
+* http://paletton.com/
+* https://coolors.co/
 
 Website for fonts download:
-*	https://fonts.google.com/
+* https://fonts.google.com/
 
 
 ******************************************************************************************
-## 7.	__Advanced CSS__
+## 7. __Advanced CSS__
 
 Flexbox
-*	`display: flex`
-*	`flex-direction`
-*	`flex-wrap`
-*	`flex-flow`
-*	`justify-content`
-*	`align-items`
-*	`align-content`
-*	`order`
-*	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
-*	`align-self`
+* `display: flex`
+* `flex-direction`
+* `flex-wrap`
+* `flex-flow`
+* `justify-content`
+* `align-items`
+* `align-content`
+* `order`
+* `flex`: `flex-grow`, `flex-shrink` and `flex-basis`
+* `align-self`
 
 Properties
-*	`transition`
-*	`transform`
-*	`box-shadow`
+* `transition`
+* `transform`
+* `box-shadow`
 
 Tools
-*	Chrome Toggle Device
-*	https://codepen.io/
+* Chrome Toggle Device
+* https://codepen.io/
 
 Exercises:
-*	http://flexboxfroggy.com/
+* http://flexboxfroggy.com/
 
 Reference websites:
-*	https://caniuse.com/
-*	https://darekkay.com/dev/flexbox-cheatsheet.html
-*	https://www.w3schools.com/cssref/css3_browsersupport.asp
-*	http://shouldiprefix.com/
-*	https://robots.thoughtbot.com/transitions-and-transforms
+* https://caniuse.com/
+* https://darekkay.com/dev/flexbox-cheatsheet.html
+* https://www.w3schools.com/cssref/css3_browsersupport.asp
+* http://shouldiprefix.com/
+* https://robots.thoughtbot.com/transitions-and-transforms
 
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
@@ -297,61 +297,61 @@ Reference websites:
 
 ******************************************************************************************
 ### <a name="css_quiz"></a>Exercises: CSS Quiz:
-*	[W3C Quiz](https://www.w3schools.com/css/css_quiz.asp)
-*	As a bonus, you can try some interactive CSS exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/css/exercise.asp)
-*	Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-css)
+* [W3C Quiz](https://www.w3schools.com/css/css_quiz.asp)
+* As a bonus, you can try some interactive CSS exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/css/exercise.asp)
+* Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
 ******************************************************************************************
-## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
+## 8. __Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
 App for creating users list:
-*	https://mailchimp.com
+* https://mailchimp.com
 
 Website with animation examples:
-*	https://daneden.github.io/animate.css
+* https://daneden.github.io/animate.css
 
 Website for patterns:
-*	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
-*	http://mashup-template.com/templates.html
-*	https://startbootstrap.com/template-categories/all/
-*	https://mdbootstrap.com/freebies/
-*	https://www.creative-tim.com/
+* https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
+* http://mashup-template.com/templates.html
+* https://startbootstrap.com/template-categories/all/
+* https://mdbootstrap.com/freebies/
+* https://www.creative-tim.com/
 
 Template Resources (free):
-* 	https://html5up.net/
-*	https://cruip.com/
-*	http://www.mashup-template.com/templates.html
-*	https://www.creative-tim.com/bootstrap-themes/free
-*	https://startbootstrap.com/templates/
-*	https://zerotomastery.io/resources/
+*   https://html5up.net/
+* https://cruip.com/
+* http://www.mashup-template.com/templates.html
+* https://www.creative-tim.com/bootstrap-themes/free
+* https://startbootstrap.com/templates/
+* https://zerotomastery.io/resources/
 
 Generating animated patterns:
-*	https://daneden.github.io/animate.css/
+* https://daneden.github.io/animate.css/
 
 Installing Github:
-*	https://desktop.github.com/
+* https://desktop.github.com/
 
 - [Bootstrap Landing Page](https://christinetrant.github.io/BootstrapLandingPage/)
 
 ******************************************************************************************
-## 9.	__CSS Grid + CSS Layout__
+## 9. __CSS Grid + CSS Layout__
 
 Grid Cheat Sheet:
-*	http://grid.malven.co/
+* http://grid.malven.co/
 
 Grid Garden:
-*	https://cssgridgarden.com/
+* https://cssgridgarden.com/
 
 Free Design resources:
-*	https://interfacer.xyz/
+* https://interfacer.xyz/
 
 ******************************************************************************************
-## 10.	__Career Of A Web Developer__
+## 10.  __Career Of A Web Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 11.	__Javascript__
+## 11.  __Javascript__
 
 Javascript types:
 1. Number
@@ -439,20 +439,20 @@ Javascript keywords:
 - with
 - yield
 
-- Exercises:
- - [Number, String, Boolean, Comparisons Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise1.js)
- - [Variables Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise2.js)
- - [Make A Calculator](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise3.js)
- - [Make A Keyless Car](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise4.js)
- - [Make A Keyless Car 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise5.js)
- - [Arrays](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise6.js)
- - [Objects & Arrays - Facebook App](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7.js)
- -[Objects & Arrays - Facebook App 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7b.js)
+Exercises:
+* [Number, String, Boolean, Comparisons Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise1.js)
+* [Variables Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise2.js)
+* [Make A Calculator](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise3.js)
+* [Make A Keyless Car](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise4.js)
+* [Make A Keyless Car 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise5.js)
+* [Arrays](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise6.js)
+* [Objects & Arrays - Facebook App](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7.js)
+* [Objects & Arrays - Facebook App 2](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise7b.js)
 
 ******************************************************************************************
 
 ******************************************************************************************
-## 12.	__DOM Manipulation__
+## 12.  __DOM Manipulation__
 
 DOM Selectors
 --------------
@@ -471,19 +471,11 @@ style.{property} //ok
 
 className //best
 classList //best
-<<<<<<< HEAD
 
 classList.add
 classList.remove
 classList.toggle
 
-=======
-
-classList.add
-classList.remove
-classList.toggle
-
->>>>>>> e388b261c7c5a475e12b72e5efd3a6b712933d6c
 ##Bonus
 innerHTML //DANGEROUS
 
@@ -493,11 +485,11 @@ children
 ##It is important to CACHE selectors in variables
 
 Reference websites:
-*	https://developer.mozilla.org/en-US/docs/web/Events
-*	https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
-*	https://jquery.com/
-*	http://youmightnotneedjquery.com/
-*	https://babeljs.io/
+* https://developer.mozilla.org/en-US/docs/web/Events
+* https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+* https://jquery.com/
+* http://youmightnotneedjquery.com/
+* https://babeljs.io/
 
 - [Background Generator](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/Background%20Generator)
  - [Demo](https://christinetrant.github.io/Background-Generator/)
@@ -506,20 +498,21 @@ Reference websites:
 
 
 ******************************************************************************************
-## 13.	__[Advanced Javascript](https://github.com/christinetrant/z2m/tree/master/Section13-AdvancedJavascript)__
+## 13.  __[Advanced Javascript](https://github.com/christinetrant/z2m/tree/master/Section13-AdvancedJavascript)__
 
-- [Scope](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise1-Scope.js)
-- [Advanced Control Flow](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2-AdvancedControlFlow.js)
-- [Swtch Statement Guessing Game Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2b-SwitchStatementGuessingGame.js)
-- [ES5 & ES6](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise3-ES5%26ES6.js)
-- ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
- - [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
-- Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
-- Advanced Array Methods 
- - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
- - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
- - [Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
-- Advanced Objects
+* [Scope](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise1-Scope.js)
+* [Advanced Control Flow](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2-AdvancedControlFlow.js)
+* [Swtch Statement Guessing Game Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2b-SwitchStatementGuessingGame.js)
+* [ES5 & ES6](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise3-ES5%26ES6.js)
+* ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
+ * [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
+* Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
+* Advanced Array Methods 
+ * [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+ * [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
+ * [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
+* Pass by Reference vs Pass by Value [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=-hBJz2PPIVE)
+* Advanced Objects
 
 ******************************************************************************************
 
@@ -574,7 +567,7 @@ cls - clear the terminal screen
 
 
 ******************************************************************************************
-## 15.	__Developer Environment__
+## 15.  __Developer Environment__
 
 Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
@@ -582,13 +575,13 @@ Popular code editors:
 * [Atom](https://atom.io/)
 
 ******************************************************************************************
-## 16.	__Git + Github + Open Source Projects__
+## 16.  __Git + Github + Open Source Projects__
 
 
 
 Install Git:
-*	https://www.atlassian.com/git/tutorials/install-git#windows
-*	https://www.atlassian.com/git/tutorials/install-git
+* https://www.atlassian.com/git/tutorials/install-git#windows
+* https://www.atlassian.com/git/tutorials/install-git
 
 
 ```
@@ -610,38 +603,38 @@ Once you are in your forked project directory in your command prompt....
 
 
 
-1.	Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
+1.  Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
 
-	a.	```git remote -v```
-
-
-	b.	```origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)```
+  a.  ```git remote -v```
 
 
-	c.	```origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)```
+  b.  ```origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)```
 
 
-2.	Type git remote add upstream, and then paste the URL you would copy from the original repository if you were to do a git clone. Press Enter. It will look like this:
+  c.  ```origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)```
 
 
-	```
-	git remote add upstream https://github.com/zero-to-mastery/PROJECT_NAME.git
-	```
+2.  Type git remote add upstream, and then paste the URL you would copy from the original repository if you were to do a git clone. Press Enter. It will look like this:
 
 
-3.	To verify the new upstream repository you've specified for your fork, type ```git remote -v``` again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
+  ```
+  git remote add upstream https://github.com/zero-to-mastery/PROJECT_NAME.git
+  ```
 
 
-4.	Now, you can keep your fork synced with the upstream repository with a few Git commands.
-	One simple way is to do the below command from the master of your forked repository:
+3.  To verify the new upstream repository you've specified for your fork, type ```git remote -v``` again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
+
+
+4.  Now, you can keep your fork synced with the upstream repository with a few Git commands.
+  One simple way is to do the below command from the master of your forked repository:
 ```git pull upstream master```
 
 ******************************************************************************************
-## 17.	__A Day In The Life Of A Developer__
+## 17.  __A Day In The Life Of A Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 18.	__NPM + NPM Scripts__
+## 18.  __NPM + NPM Scripts__
 
 
 ```
@@ -651,16 +644,16 @@ npm install –g browserify
 ```
 
 Install node and npm:
-*	https://www.npmjs.com/get-npm
-*	https://nodejs.org/es/
+* https://www.npmjs.com/get-npm
+* https://nodejs.org/es/
 
 Reference websites:
-*	https://www.npmjs.com/
-*	https://www.npmjs.com/package/react
-*	https://lodash.com/
+* https://www.npmjs.com/
+* https://www.npmjs.com/package/react
+* https://lodash.com/
 
 ******************************************************************************************
-## 19.	__React.js + Redux__
+## 19.  __React.js + Redux__
 
 ```
 npm install –g create-react-app
@@ -671,14 +664,14 @@ npm install tachyons
 
 
 Website for fonts download:
-*	http://www.cufonfonts.com/en
+* http://www.cufonfonts.com/en
 
 
 Reference websites:
-*	https://reactjs.org/docs/react-component.html
-*	https://jsonplaceholder.typicode.com/
-*	http://atomicdesign.bradfrost.com/
-*	https://robohash.org
+* https://reactjs.org/docs/react-component.html
+* https://jsonplaceholder.typicode.com/
+* http://atomicdesign.bradfrost.com/
+* https://robohash.org
 
 Action --> Reducer --> Store --> Make changes
 
@@ -690,74 +683,74 @@ npm install redux-thunk
 ```
 
 
-*	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
-*	https://reacttraining.com/react-router/
-*	https://ramdajs.com/
-*	https://lodash.com
-*	https://glamorous.rocks
-*	https://www.styled-components.com
-*	https://github.com/css-modules/css-modules
-*	https://www.gatsbyjs.org
-*	https://zeit.co/blog/next5
-*	www.material-ui.com/#/components/app-bar
-*	https://react.semantic-ui.com/elements/button
-*	https://github.com/reactjs/reselect
-*	https://redux-saga.js.org
-*	https://facebook.github.io/immutable-js/
+* https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+* https://reacttraining.com/react-router/
+* https://ramdajs.com/
+* https://lodash.com
+* https://glamorous.rocks
+* https://www.styled-components.com
+* https://github.com/css-modules/css-modules
+* https://www.gatsbyjs.org
+* https://zeit.co/blog/next5
+* www.material-ui.com/#/components/app-bar
+* https://react.semantic-ui.com/elements/button
+* https://github.com/reactjs/reselect
+* https://redux-saga.js.org
+* https://facebook.github.io/immutable-js/
 
 ******************************************************************************************
-## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## 20.  __HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
 ******************************************************************************************
-## 21.	__Backend Basics__
+## 21.  __Backend Basics__
 ******************************************************************************************
 
 ******************************************************************************************
 ## 22. __APIs__
 ******************************************************************************************
-*	https://stripe.com/docs/api
-*	https://www.twilio.com/docs/api/messaging/send-messages
-*	https://apilist.fun
+* https://stripe.com/docs/api
+* https://www.twilio.com/docs/api/messaging/send-messages
+* https://apilist.fun
 
 
 ******************************************************************************************
-## 23.	__FINAL PROJECT: SmartBrain Front-End__
+## 23.  __FINAL PROJECT: SmartBrain Front-End__
 
 
 Animated objects library:
-*	https://www.npmjs.com/package/react-tilt
-	```
-	npm install –save react-tilt
-	```
+* https://www.npmjs.com/package/react-tilt
+  ```
+  npm install –save react-tilt
+  ```
 
 Background patterns:
-*	http://lea.verou.me/css3patterns/
+* http://lea.verou.me/css3patterns/
 
 
 Animated background library:
-*	https://particles.matteobruni.it/
+* https://particles.matteobruni.it/
 
-	```
-	npm install react-particles-js
-	```
+  ```
+  npm install react-particles-js
+  ```
 
 Image and video recognition:
-*	https://clarifai.com/developer/guide/
-	```
-	npm install clarifai
-	```
+* https://clarifai.com/developer/guide/
+  ```
+  npm install clarifai
+  ```
 Icons library:
-*	https://icons8.com/icon
+* https://icons8.com/icon
 
 ******************************************************************************************
-## 24.	__Node.js + Express.js__
+## 24.  __Node.js + Express.js__
 
 Install Postman:
-*	https://www.getpostman.com/apps
+* https://www.getpostman.com/apps
 
 Express.js:
-*	https://expressjs.com/en/api.html
+* https://expressjs.com/en/api.html
 
 (Getting start guide)
 
@@ -768,15 +761,15 @@ npm install --save-dev nodemon
 ```
 
 Node.js Reference websites:
-*	https://nodejs.org/en/
-*	https://nodejs.org/api/modules.html
+* https://nodejs.org/en/
+* https://nodejs.org/api/modules.html
 
 Storing passwords securely:
 ```
 npm install bcrypt-nodejs
 ```
-*	https://www.npmjs.com/package/bcrypt-nodejs
-*	https://www.npmjs.com/package/argon2
+* https://www.npmjs.com/package/bcrypt-nodejs
+* https://www.npmjs.com/package/argon2
 
 
 ```
@@ -784,47 +777,47 @@ $ npm install bcrypt
 ```
 
 ```jsx
-1.	/*
-2.	* You can copy and run the code below to play around with bcrypt
-3.	* However this is for demonstration purposes only. Use these concepts
-4.	* to adapt to your own project needs.
-5.	*/
+1.  /*
+2.  * You can copy and run the code below to play around with bcrypt
+3.  * However this is for demonstration purposes only. Use these concepts
+4.  * to adapt to your own project needs.
+5.  */
 6.
-7.	import bcrypt from'bcrypt'
-8.	const saltRounds = 10 // increase this if you want more iterations
-9.	const userPassword = 'supersecretpassword'
-10.	const randomPassword = 'fakepassword'
+7.  import bcrypt from'bcrypt'
+8.  const saltRounds = 10 // increase this if you want more iterations
+9.  const userPassword = 'supersecretpassword'
+10. const randomPassword = 'fakepassword'
 11.
-12.	const storeUserPassword = (password, salt) =>
-13.	  bcrypt.hash(password, salt).then(storeHashInDatabase)
+12. const storeUserPassword = (password, salt) =>
+13.   bcrypt.hash(password, salt).then(storeHashInDatabase)
 14.
-15.	const storeHashInDatabase = (hash) => {
-16.	   // Store the hash in your password DB
-17.	   return hash // For now we are returning the hash for testing at the bottom
-18.	}
+15. const storeHashInDatabase = (hash) => {
+16.    // Store the hash in your password DB
+17.    return hash // For now we are returning the hash for testing at the bottom
+18. }
 19.
-20.	// Returns true if user password is correct, returns false otherwise
-21.	const checkUserPassword = (enteredPassword, storedPasswordHash) =>
-22.	  bcrypt.compare(enteredPassword, storedPasswordHash)
+20. // Returns true if user password is correct, returns false otherwise
+21. const checkUserPassword = (enteredPassword, storedPasswordHash) =>
+22.   bcrypt.compare(enteredPassword, storedPasswordHash)
 23.
 24.
-25.	// This is for demonstration purposes only.
-26.	storeUserPassword(userPassword, saltRounds)
-27.	  .then(hash =>
-28.	    // change param userPassword to randomPassword to get false
-29.	    checkUserPassword(userPassword, hash)
-30.	  )
-31.	  .then(console.log)
-32.	  .catch(console.error)
+25. // This is for demonstration purposes only.
+26. storeUserPassword(userPassword, saltRounds)
+27.   .then(hash =>
+28.     // change param userPassword to randomPassword to get false
+29.     checkUserPassword(userPassword, hash)
+30.   )
+31.   .then(console.log)
+32.   .catch(console.error)
 ```
 
 
 ******************************************************************************************
-## 25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## 25.  __FINAL PROJECT: SmartBrain Back-End -- Server__
 
 
 Change localhost:
-*	https://stackoverflow.com/questions/40714583/how-to-specify-a-port-to-run-a-create-react-app-based-project
+* https://stackoverflow.com/questions/40714583/how-to-specify-a-port-to-run-a-create-react-app-based-project
 
 If you don't want set environment variable, other option - modify scripts part of package.json from:
 
@@ -844,24 +837,24 @@ Windows @JacobEnsor solution to:
 
 
 Front-end and back-end connection:
-*	https://www.npmjs.com/package/cors
-	```
-	npm install cors
-	```
+* https://www.npmjs.com/package/cors
+  ```
+  npm install cors
+  ```
 
 Front-end:
 
 ```Javascript
 fetch('http://localhost:3000/image', {
-	method: 'put',
-	headers: {'Content-Type': 'application/json'},
-	body: JSON.stringify({
-		id: this.state.user.id
-	})
+  method: 'put',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({
+    id: this.state.user.id
+  })
 })
 .then(response => response.json())
 .then(count => {
-	this.setState(Object.assign(this.state.user, { entries:count}))
+  this.setState(Object.assign(this.state.user, { entries:count}))
 })
 ```
 Back-end:
@@ -872,227 +865,227 @@ app.use(cors());
 ```
 
 ******************************************************************************************
-## 26.	__Databases__
+## 26.  __Databases__
 
 
 Install PostgreSQL:
 
-*	http://www.psequel.com/
+* http://www.psequel.com/
 
-	en el terminal:
-	```zsh
-	brew update
-	brew doctor
-	brew install postgresql
-	brew services start postgresql
-	brew services stop postgresql
-	createdb ‘test’
-	psql ‘test’
-	```
+  en el terminal:
+  ```zsh
+  brew update
+  brew doctor
+  brew install postgresql
+  brew services start postgresql
+  brew services stop postgresql
+  createdb ‘test’
+  psql ‘test’
+  ```
 
-	for windows:
+  for windows:
 
-*	https://www.pgadmin.org/download/pgadmin-4-windows/
-*	http://www.postgresqltutorial.com/install-postgresql/
+* https://www.pgadmin.org/download/pgadmin-4-windows/
+* http://www.postgresqltutorial.com/install-postgresql/
 
-	```cmd
-	@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://s3.amazonaws.com/pgcentral/install.ps1'))"
+  ```cmd
+  @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://s3.amazonaws.com/pgcentral/install.ps1'))"
 
-	cd bigsql
-	pgc install pg10
-	pgc start pg10
-	```
-*	http://dc-apuntes.blogspot.com/2016/04/comandos-postgres-desde-cmd-windows.html
-*	https://www.w3resource.com/PostgreSQL/connect-to-postgresql-database.php
-*	https://www.youtube.com/watch?v=fD7x8hd9yE4
+  cd bigsql
+  pgc install pg10
+  pgc start pg10
+  ```
+* http://dc-apuntes.blogspot.com/2016/04/comandos-postgres-desde-cmd-windows.html
+* https://www.w3resource.com/PostgreSQL/connect-to-postgresql-database.php
+* https://www.youtube.com/watch?v=fD7x8hd9yE4
 
 data types
-*	https://www.techonthenet.com/postgresql/datatypes.php
+* https://www.techonthenet.com/postgresql/datatypes.php
 
 Terminal commands for windows:
 
 Login: (-U usuario)
 
-	psql -h localhost -U postgres
+  psql -h localhost -U postgres
 
 Create database:
 
-	create database database_name;
+  create database database_name;
 
 Show all datatables:
 
-	\l
+  \l
 
 Create a user:
 
-	create user moni with password ‘moni’;
+  create user moni with password ‘moni’;
 
 Delete a database:
 
-	drop database database_name;
+  drop database database_name;
 
 Connect to a database:
 
-	\c database_name;
+  \c database_name;
 
 Create a schema:
 
-	create schema friends;
+  create schema friends;
 
 Create a table:
 
-	create table Friends.test( firstname CHAR(15), lastname CHAR(20));
+  create table Friends.test( firstname CHAR(15), lastname CHAR(20));
 
-	create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
+  create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
 
 Show all information of a table:
 
-	select * from friends.test;
+  select * from friends.test;
 
 Describe database:
 
-	\d friends.test
+  \d friends.test
 
 Insert data:
 
-	insert into friends.test values( ‘Mike’, ‘Smith’);
+  insert into friends.test values( ‘Mike’, ‘Smith’);
 
-	insert into friends.test (firstname, lastname )values( ‘Sally’, ‘Jones’);
+  insert into friends.test (firstname, lastname )values( ‘Sally’, ‘Jones’);
 
 Add a column to an existing table:
 
-	alter table Friends.test add age smallint;
+  alter table Friends.test add age smallint;
 
 Update data from the table:
 
-	update friends.test set age = 25 where firstname= ‘Mike’;
+  update friends.test set age = 25 where firstname= ‘Mike’;
 
 Delete data from the table:
 
-	delete from friends.test where firstname = ‘Mike’;
+  delete from friends.test where firstname = ‘Mike’;
 
 Delete column from a table:
 
-	alter table friends.test drop column age;
+  alter table friends.test drop column age;
 
 Delete a table:
 
-	drop table friends.test;
+  drop table friends.test;
 
 Functions:
 
-	select avg(age) from friends.test;
+  select avg(age) from friends.test;
 
 Join tables:
 
-	select * from friends.test join friends.login on friends.test.firstname = friends.login.name;
+  select * from friends.test join friends.login on friends.test.firstname = friends.login.name;
 
 Exit:
 
-	\q
+  \q
 
 List all users in postgresSQL database server:
 
-	\du
+  \du
 
 List all tables in a schema:
 
-	\d+ schema_name.*
+  \d+ schema_name.*
 
 List all tables in a database:
 
-	\dt *.*
+  \dt *.*
 
 List a table in a schema:
 
-	\d+ schema_name . table_name
+  \d+ schema_name . table_name
 
 Show description of a table, columns, type, modifications, etc.:
 
-	\d+ table_name
+  \d+ table_name
 
 Create a backup of a database:
 
-	pg_dump -h localhost -U postgres database_name > database_name.sql
+  pg_dump -h localhost -U postgres database_name > database_name.sql
 
 Restore a database: 1. Create a new database where the restore file is going to be placed:
 
-	psql -U postgres -d new_database_name -f respaldo.sql
+  psql -U postgres -d new_database_name -f respaldo.sql
 
-	*Note:  it is important to create the restore in the same root where the database copy is saved.
+  *Note:  it is important to create the restore in the same root where the database copy is saved.
 
 Enter to postgres with a user different to postgres:
 
-	psql -h localhost -d postgres -U usuario
+  psql -h localhost -d postgres -U usuario
 
 Enter to a database with a different user:
 
-	psql -h localhost -d nombre_base -U nombre_usuario
+  psql -h localhost -d nombre_base -U nombre_usuario
 
 
 ******************************************************************************************
-## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## 27.  __FINAL PROJECT: SmartBrain Back-End – Database__
 
 
 Tool for db connection with back-end:
-*	https://knexjs.org/
-*	https://knexjs.org/#Installation-node
-*	https://github.com/vitaly-t/pg-promise
+* https://knexjs.org/
+* https://knexjs.org/#Installation-node
+* https://github.com/vitaly-t/pg-promise
 
 ******************************************************************************************
-## 28.	__Production + Deployment__
+## 28.  __Production + Deployment__
 
 
 Environmental variables:
-*	http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/
+* http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/
 
 ### PORT
 
 On terminal:
 
-	bash
-	-->PORT-3000 node server.js
+  bash
+  -->PORT-3000 node server.js
 
 On server.js:
 ```JSX
-	const PORT = process.env.PORT
-	app.listen(PORT, ()=>{
-		console.log(`app is running on port ${PORT}`);
-	})
+  const PORT = process.env.PORT
+  app.listen(PORT, ()=>{
+    console.log(`app is running on port ${PORT}`);
+  })
 ```
 
 ### DATABASE
 
 On terminal:
 
-	bash
-	-->DATABASE_URL-123  node server.js
+  bash
+  -->DATABASE_URL-123  node server.js
 
 On server.js:
 
 ```jsx
-	const DATABASE_URL = process.env. DATABASE_URL
-	app.listen(3000, ()=>{
-		console.log(`app is running on port ${ DATABASE_URL }`);
-	})
+  const DATABASE_URL = process.env. DATABASE_URL
+  app.listen(3000, ()=>{
+    console.log(`app is running on port ${ DATABASE_URL }`);
+  })
 ```
 
 ### OTHER OPTION
 
 On terminal:
 
-	fish
-	-->env DATABASE_URL-‘hello’ node server.js
+  fish
+  -->env DATABASE_URL-‘hello’ node server.js
 
 Deploy apps:
 
 Heroku:
 
-*	https://www.heroku.com/
-*	https://devcenter.heroku.com/articles/git
+* https://www.heroku.com/
+* https://devcenter.heroku.com/articles/git
 
 Not the best one:
-*	https://www.hostgator.com/promo/snappy60?utm_source=google&utm_medium=brandsearch&kclickid=cfe89874-3c6a-404e-b321-fc3e56f9ec2b&gclid=CjwKCAjwsJ3ZBRBJEiwAtuvtlIkFb-qOw3HN_JpH3AAkmYwKhk_L0y0stl7J1CFRR8FRltvmvhwXPBoCATIQAvD_BwE
+* https://www.hostgator.com/promo/snappy60?utm_source=google&utm_medium=brandsearch&kclickid=cfe89874-3c6a-404e-b321-fc3e56f9ec2b&gclid=CjwKCAjwsJ3ZBRBJEiwAtuvtlIkFb-qOw3HN_JpH3AAkmYwKhk_L0y0stl7J1CFRR8FRltvmvhwXPBoCATIQAvD_BwE
 
 
 
@@ -1112,8 +1105,8 @@ heroku git: remote –a limitless-bastion-10041
 
 Changes required in:
 
-*	BACK END: PORT in server.js needs to be changed by an environment variable
-*	FRONT END: fetch URL needs to be changed by the URL of HEROKU + “:3000”
+* BACK END: PORT in server.js needs to be changed by an environment variable
+* FRONT END: fetch URL needs to be changed by the URL of HEROKU + “:3000”
 
 ```
 git push heroku master
@@ -1124,9 +1117,9 @@ heroku open
 
 
 Connect to pg database:
-*	https://devcenter.heroku.com/articles/heroku-postgresql
-*	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
-*	https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
+* https://devcenter.heroku.com/articles/heroku-postgresql
+* https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
+* https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
 
 Create a new postgres database using Heroku:
 
@@ -1138,22 +1131,18 @@ heroku pg:psql
 ```
 
 ******************************************************************************************
-## 29.	__Where To Go From Here?__
+## 29.  __Where To Go From Here?__
 ******************************************************************************************
 
 The Complete Junior to Senior Web Developer Roadmap (2019):
-*	https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/
+* https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/
 
 ******************************************************************************************
-## 30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
+## 30.  __Bonus: Extra Bits (Coding Challenges + AMA)__
 ******************************************************************************************
 ******************************************************************************************
-## 31.	__Extra: For Windows Users__
+## 31.  __Extra: For Windows Users__
 ******************************************************************************************
 ******************************************************************************************
-## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
-<<<<<<< HEAD
+## 32.  __Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
-=======
-******************************************************************************************
->>>>>>> e388b261c7c5a475e12b72e5efd3a6b712933d6c
