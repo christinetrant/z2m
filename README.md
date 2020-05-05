@@ -471,11 +471,19 @@ style.{property} //ok
 
 className //best
 classList //best
+<<<<<<< HEAD
 
 classList.add
 classList.remove
 classList.toggle
 
+=======
+
+classList.add
+classList.remove
+classList.toggle
+
+>>>>>>> e388b261c7c5a475e12b72e5efd3a6b712933d6c
 ##Bonus
 innerHTML //DANGEROUS
 
@@ -1144,4 +1152,8 @@ The Complete Junior to Senior Web Developer Roadmap (2019):
 ******************************************************************************************
 ******************************************************************************************
 ## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
+<<<<<<< HEAD
 ******************************************************************************************
+=======
+******************************************************************************************
+>>>>>>> e388b261c7c5a475e12b72e5efd3a6b712933d6c
