@@ -52,7 +52,7 @@ const usersArr = Object.entries(users)
 //#7 change the output array of the above to have the user's IDs multiplied by 2 -- Should output:[ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] ]
 
 // let temp = Object.entries(users).map(value => value[1]*2);
-// SO CLOSE!!!! Above answer where i got stuck after too long
+// SO CLOSE!!!! Above answer where i got stuck after too long - obvious now to make a new array
 let temp = Object.entries(users).map(value => {
 	return [value[0], value[1]*2]
 });
@@ -60,9 +60,6 @@ let temp = Object.entries(users).map(value => {
 
 //#8 change the output array of question #7 back into an object with all the users IDs updated to their new version. Should output: { user1: 36546, user2: 185666, user3: 180630 }
 const usersObj = Object.fromEntries(temp);
-
-
-
 
 
 
