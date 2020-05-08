@@ -505,8 +505,8 @@ Exercises:
 * [Advanced Control Flow](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2-AdvancedControlFlow.js)
 * [Swtch Statement Guessing Game Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2b-SwitchStatementGuessingGame.js)
 * [ES5 & ES6](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise3-ES5%26ES6.js)
-* ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
- * [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
+  * ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
+* [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
 * Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
 * Advanced Array Methods 
   - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
