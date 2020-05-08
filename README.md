@@ -509,9 +509,9 @@ Exercises:
  * [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
 * Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
 * Advanced Array Methods 
- - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
- - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
- - [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
+  - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+  - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
+  - [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
 * Pass by Reference vs Pass by Value [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=-hBJz2PPIVE)
 * Advanced Objects
 * [ES7](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise7-ES7.js)
