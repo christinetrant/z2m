@@ -491,10 +491,11 @@ Reference websites:
 * http://youmightnotneedjquery.com/
 * https://babeljs.io/
 
+Exercises:
 - [Background Generator](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/Background%20Generator)
- - [Demo](https://christinetrant.github.io/Background-Generator/)
+ - [Background Generator Demo](https://christinetrant.github.io/Background-Generator/)
 - [Shopping List](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/DOM%20Events%20Shopping%20List)
- - [Demo](https://christinetrant.github.io/ToDoList/)
+ - [Shopping List Demo](https://christinetrant.github.io/ToDoList/)
 
 
 ******************************************************************************************
@@ -508,11 +509,19 @@ Reference websites:
  * [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
 * Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
 * Advanced Array Methods 
- * [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
- * [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
- * [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
+ - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+ - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
+ - [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
 * Pass by Reference vs Pass by Value [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=-hBJz2PPIVE)
 * Advanced Objects
+* [ES7](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise7-ES7.js)
+* [ES8](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise8-ES8.js)
+* [ES10](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise9-ES10.js)
+* [Advanced Loops](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise10-AdvancedLooping.js)
+* Debugging
+* Modules
+
+
 
 ******************************************************************************************
 
