@@ -220,3 +220,31 @@ document.addEventListener('click', function() {
 })
 // becomes:
 document.addEventListener('click', () => console.log('Click!'));
+
+// 
+class Person {
+	constructor(name) {
+		this.name = name;
+	}
+
+	printNameArrow() {
+		setTimeout(() => {
+			console.log('Arrow: ' + this.name)
+		}, 100)
+	}
+
+	printNameFunction() {
+		setTimeout(function() {
+			console.log('Function: ' + this.name)
+		}, 100)
+	}
+}
+
+let person = newPerson('Bob')
+person.printNameArrow()
+// Arrow: Bob
+person.printNameFunction()
+// Function: 
+
+// using the old function syntax it redefines 'this' to the global scope as that is where the function is called.  It can't access the object 'this' whereas the arrow function can - it is more intuitive and recommended
+console.log(this.name) // 

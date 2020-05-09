@@ -519,7 +519,9 @@ Exercises:
 * [ES10](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise9-ES10.js)
 * [Advanced Loops](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise10-AdvancedLooping.js)
 * Debugging
-* Modules
+* [Modules](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/ES6Modules)
+  - [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=cRHQNNcYf6s)
+  - [https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 
 
 
