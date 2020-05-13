@@ -113,7 +113,7 @@ console.log(total); // 1840
 
 // INCLUDES
 // It doesn't take a function it just takes a single argument
-const items = [1. 2. 3. 4. 5];
+const items = [1, 2, 3, 4, 5];
 // Let's check if two is inside the array:
 const includesTwo = items.includes(2);
 console.log(includesTwo); // true

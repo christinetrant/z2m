@@ -522,7 +522,7 @@ Exercises:
 * [Modules](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/ES6Modules)
   - [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=cRHQNNcYf6s)
   - [https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
-
+Coding Challenge 6 - Javascript Logic
 
 
 ******************************************************************************************
