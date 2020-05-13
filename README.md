@@ -62,6 +62,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 Discord Channel:
 * ~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
+
 ## 2. __How The Internet Works__
 
 Tools:
@@ -74,6 +75,7 @@ Topics:
 Submarine Cable Map:
 * https://www.submarinecablemap.com/
 ******************************************************************************************
+
 ## 3. __History Of The Web__
 
 Maps that explain the Internet:
@@ -158,6 +160,7 @@ Resources:
 * As a bonus, you can try some interactive HTML exercises that will improve your ability to discover new HTML syntaxes: [Bonus Quiz](https://www.w3schools.com/html/exercise.asp)
 * Optional Exercise: [FreeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
 ******************************************************************************************
+
 ## 6. __CSS__
 
 Syntax:
@@ -476,12 +479,13 @@ classList.remove
 classList.toggle
 
 ##Bonus
+
 innerHTML //DANGEROUS
 
 parentElement
 children
 
-##It is important to CACHE selectors in variables
+## It is important to CACHE selectors in variables
 
 Reference websites:
 * https://developer.mozilla.org/en-US/docs/web/Events
@@ -607,14 +611,12 @@ Sublime Text Plugins I use:
 
 Terminal - Customise Git Bash:
 * Tutorial
-  - [1](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
-  - [2](https://vishnupadmanabhan.com/styling-git-bash/)
+  - [https://avladov.com/blog/641/replacing-command-prompt-git-bash](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
+  - [https://vishnupadmanabhan.com/styling-git-bash/](https://vishnupadmanabhan.com/styling-git-bash/)
 * [Color Scheme](https://github.com/oumu/mintty-color-schemes)
 
 ******************************************************************************************
 ## 16.  __Git + Github + Open Source Projects__
-
-
 
 Install Git:
 * https://www.atlassian.com/git/tutorials/install-git#windows
