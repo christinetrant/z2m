@@ -36,7 +36,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
 - [ ] Exercises: w3resource.com/javascript/exercises (use strict!)
 - [ ] Add Table of Contents?
-- [x] Javascript [Coding Challenge 6](https://github.com/zero-to-mastery/Coding_Challenge-6)
+- [ ] Javascript [Coding Challenge 6](https://github.com/zero-to-mastery/Coding_Challenge-6)
 - [ ] Javascript [Coding Challenge 7](https://github.com/zero-to-mastery/Coding_Challenge-7)
 - [ ] Javascript [Coding Challenge 14 Memory Game](https://github.com/zero-to-mastery/coding_challenge-14)
 - [ ] Javascript [Coding Challenge 18](https://github.com/zero-to-mastery/coding_challenge-18)
@@ -89,7 +89,6 @@ Optional Videos:
 
 ******************************************************************************************
 ## 4. __HTML 5__
-## Test
 
 Install a text editor (Select one):
 * https://www.sublimetext.com/
@@ -439,7 +438,7 @@ Javascript keywords:
 - with
 - yield
 
-Exercises:
+### Exercises:
 * [Number, String, Boolean, Comparisons Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise1.js)
 * [Variables Exercise](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise2.js)
 * [Make A Calculator](https://github.com/christinetrant/z2m/blob/master/Section11-Javascript/exercise3.js)
@@ -491,7 +490,7 @@ Reference websites:
 * http://youmightnotneedjquery.com/
 * https://babeljs.io/
 
-Exercises:
+### Exercises: 
 - [Background Generator](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/Background%20Generator)
  - [Background Generator Demo](https://christinetrant.github.io/Background-Generator/)
 - [Shopping List](https://github.com/christinetrant/z2m/tree/master/Section12-DOMManipulation/DOM%20Events%20Shopping%20List)
@@ -501,36 +500,41 @@ Exercises:
 ******************************************************************************************
 ## 13.  __[Advanced Javascript](https://github.com/christinetrant/z2m/tree/master/Section13-AdvancedJavascript)__
 
+* ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
+
+* Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
+
+* Advanced Array Methods 
+  - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
+  - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
+
+* Pass by Reference vs Pass by Value [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=-hBJz2PPIVE)
+
+* Debugging - use `debugger;`
+
+* [Modules](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/ES6Modules)
+  - [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=cRHQNNcYf6s)
+  - [https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+
+### Exercises: 
+
 * [Scope](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise1-Scope.js)
 * [Advanced Control Flow](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2-AdvancedControlFlow.js)
 * [Swtch Statement Guessing Game Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise2b-SwitchStatementGuessingGame.js)
 * [ES5 & ES6](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise3-ES5%26ES6.js)
-  * ES6 Arrow Function - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=h33Srr5J9nY&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=5)
 * [Advanced Functions](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise4-AdvancedFunctions.js)
-* Array/Object Destructuring - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=NIq3qLaHCIs)
-* Advanced Array Methods 
-  - [YouTube Explanation - Web Dev Simplified](https://www.youtube.com/watch?v=R8rmfD9Y5-c)
-  - [Notes](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvanceArrays-LectureNotes.js)
-  - [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
-* Pass by Reference vs Pass by Value [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=-hBJz2PPIVE)
-* Advanced Objects
+* [Advanced Array Exercise](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise5-AdvancedArrays.js)
 * [ES7](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise7-ES7.js)
 * [ES8](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise8-ES8.js)
 * [ES10](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise9-ES10.js)
 * [Advanced Loops](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/exercise10-AdvancedLooping.js)
-* Debugging
-* [Modules](https://github.com/christinetrant/z2m/blob/master/Section13-AdvancedJavascript/ES6Modules)
-  - [YouTube Web Dev Simplified](https://www.youtube.com/watch?v=cRHQNNcYf6s)
-  - [https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
-Coding Challenge 6 - Javascript Logic
-
 
 ******************************************************************************************
 
 ******************************************************************************************
 ## 14. __Command Line__
 
-For Windows - install Git Bash
+
 
 FOR MAC OR LINUX:
 
@@ -584,29 +588,6 @@ Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
-
-Sublime Text Plugins I use:
-* Theme: Agila (monokai)
-* Color Scheme: Monokai
-* SidebarEnhancements
-* A File Icon
-* BracketHighlighter
-* BrowserSync
-* Emmet - ctrl alt enter
-* Babel
-* Alignment - (ctrl alt a)
-* Colorpicker - (ctrl shift c)
-* SublimeLinter
-* GitGutter
-* Terminus - terminal in sublime
-
-
-Terminal - Customise Git Bash:
-* Tutorial
-  - [1](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
-  - [2](https://vishnupadmanabhan.com/styling-git-bash/)
-* [Color Scheme](https://github.com/oumu/mintty-color-schemes)
-
 
 ******************************************************************************************
 ## 16.  __Git + Github + Open Source Projects__
