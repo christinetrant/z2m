@@ -601,6 +601,11 @@ Sublime Text Plugins I use:
 * Terminus - terminal in sublime
 
 
+Terminal - Customise Git Bash:
+* [Tutorial](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
+* [Color Scheme](https://github.com/oumu/mintty-color-schemes)
+
+
 ******************************************************************************************
 ## 16.  __Git + Github + Open Source Projects__
 
