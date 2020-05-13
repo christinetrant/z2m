@@ -36,7 +36,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
 - [ ] Check out Andrei's announcements on Udemy site - some cool links!
 - [ ] Exercises: w3resource.com/javascript/exercises (use strict!)
 - [ ] Add Table of Contents?
-- [ ] Javascript [Coding Challenge 6](https://github.com/zero-to-mastery/Coding_Challenge-6)
+- [x] Javascript [Coding Challenge 6](https://github.com/zero-to-mastery/Coding_Challenge-6)
 - [ ] Javascript [Coding Challenge 7](https://github.com/zero-to-mastery/Coding_Challenge-7)
 - [ ] Javascript [Coding Challenge 14 Memory Game](https://github.com/zero-to-mastery/coding_challenge-14)
 - [ ] Javascript [Coding Challenge 18](https://github.com/zero-to-mastery/coding_challenge-18)
@@ -530,7 +530,7 @@ Coding Challenge 6 - Javascript Logic
 ******************************************************************************************
 ## 14. __Command Line__
 
-
+For Windows - install Git Bash
 
 FOR MAC OR LINUX:
 
@@ -584,6 +584,22 @@ Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
+
+Sublime Text Plugins I use:
+* Theme: Agila (monokai)
+* Color Scheme: Monokai
+* SidebarEnhancements
+* A File Icon
+* BracketHighlighter
+* BrowserSync
+* Emmet - ctrl alt enter
+* Babel
+* Alignment - (ctrl alt a)
+* Colorpicker - (ctrl shift c)
+* SublimeLinter
+* GitGutter
+* Terminus - terminal in sublime
+
 
 ******************************************************************************************
 ## 16.  __Git + Github + Open Source Projects__
