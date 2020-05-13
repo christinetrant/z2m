@@ -602,7 +602,9 @@ Sublime Text Plugins I use:
 
 
 Terminal - Customise Git Bash:
-* [Tutorial](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
+* Tutorial
+  - [1](https://avladov.com/blog/641/replacing-command-prompt-git-bash)
+  - [2](https://vishnupadmanabhan.com/styling-git-bash/)
 * [Color Scheme](https://github.com/oumu/mintty-color-schemes)
 
 
