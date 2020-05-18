@@ -19,7 +19,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] CSS Quiz
   - [x] Bonus Quiz
   - [x] Optional Exercise
-  - [ ] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
+  - [x] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
 - [ ] [Section 8:](#bootstrap-4)
   - [x] Bootstrap Landing Page with Mailchimp integration
   - [x] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
@@ -635,6 +635,8 @@ git branch
 git branch “name”
 git checkout “name”
 git merge “name”
+
+git checkout -b "myBranchName"
 ```
 
 
@@ -667,6 +669,8 @@ Once you are in your forked project directory in your command prompt....
 4.  Now, you can keep your fork synced with the upstream repository with a few Git commands.
   One simple way is to do the below command from the master of your forked repository:
 ```git pull upstream master```
+
+Or you can follow along another method here: "(Syncing a fork.)"[https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork]
 
 ******************************************************************************************
 ## 17.  __A Day In The Life Of A Developer__
