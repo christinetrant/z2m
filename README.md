@@ -20,7 +20,7 @@ Built on from - [Zero to Mastery Github](https://github.com/zero-to-mastery/comp
   - [x] Bonus Quiz
   - [x] Optional Exercise
   - [x] [CSS Art - General Edition] - upload my work(https://github.com/zero-to-mastery/CSS-Art)
-- [ ] [Section 8:](#bootstrap-4)
+- [x] [Section 8:](#bootstrap-4)
   - [x] Bootstrap Landing Page with Mailchimp integration
   - [x] [Challenge 8](https://github.com/zero-to-mastery/Coding_Challenge-8)
   - [ ] CSS Grid Layout Challenge (Lesson 89. CSS Layout)
@@ -694,6 +694,11 @@ Reference websites:
 * https://www.npmjs.com/
 * https://www.npmjs.com/package/react
 * https://lodash.com/
+
+Creating and publishing an npm package
+* [Great Tutorial!](https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf)
+* My Npm Package from Coding Challenge 6 -
+  - [https://www.npmjs.com/package/colorconverter-z2m/access](https://www.npmjs.com/package/colorconverter-z2m/access)
 
 ******************************************************************************************
 ## 19.  __React.js + Redux__
