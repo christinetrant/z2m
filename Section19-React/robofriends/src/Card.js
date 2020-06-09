@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import './Card.css';
 
 // const Card = (props) => {
 const Card = ({ name, email, id }) => {
