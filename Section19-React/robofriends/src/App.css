@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'DAYPBL__';
+  src: url(DAYPBL__.ttf);
+}
+
+body {
+	background: rgb(36,0,34);
+	background: linear-gradient(to right, #18a157, #0878a9, #854659);
+}
+
+h1 {
+	font-family: 'DAYPBL__';
+	text-shadow: 2px 2px 8px #000;
+}
