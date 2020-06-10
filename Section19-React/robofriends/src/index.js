@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import CardList from './CardList';
-import App from './App';
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 // robots isn't a default app, it is a variable so we destructure when calling (curly brackets)

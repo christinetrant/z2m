@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({robots}) => {
+	// to test the error we can create one below to test our ErrorBoundry
+	// if(true) {
+	// 	throw new Error('Oopsies!');
+	// }
 	// rather than calling each card by index we map to create a new array
 	// In the console we get an error: Warning: Each child in a list should have a unique "key" prop. so we add a unique key e.g. the id
 	// const CardArray = robots.map((user, i) => {
