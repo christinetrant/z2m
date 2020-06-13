@@ -714,6 +714,8 @@ npm install tachyons
 Website for fonts download:
 * http://www.cufonfonts.com/en
 
+Deploying Webpage to Github Pages: 
+* https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom
 
 Reference websites:
 * https://reactjs.org/docs/react-component.html
@@ -748,6 +750,9 @@ npm install redux-thunk
 
 ******************************************************************************************
 ## 20.  __HTTP/JSON/AJAX + Asynchronous Javascript__
+
+* https://github.com/daumann/ECMAScript-new-features-list
+
 ******************************************************************************************
 
 ******************************************************************************************
