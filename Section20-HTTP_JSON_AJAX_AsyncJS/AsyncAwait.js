@@ -63,3 +63,56 @@ const getData = async function() {
 		console.log('Error:', err)
 	}
 }
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/*****     WEB DEV SIMPLIFIED EXAMPLES     *****/
+/***********************************************/
+function makeRequest(location) {
+	return new Promise((resolve, reject) => {
+		console.log(`Making request to ${location}`)
+		if(location === 'Google') {
+			resolve('Google says hi')
+		} else {
+			reject('We can only talk to Google')
+		}
+	})
+}
+
+function processRequest(response) {
+	return new Promise((resolve, reject) => {
+		console.log('Processing response')
+		resolve(`Extra information + ${response}`)
+	})
+}
+
+// Promise
+makeRequest('Google').then(response => {
+	console.log('Response Received')
+	return processRequest(response)
+}).then(processResponse => {
+	console.log(processResponse)
+}).catch(err => {
+	console.log(err)
+})
+// If we have 'Facebook' instead of Google we will get the error response
+
+// Async function
+async function doWork() {
+	try {
+		const response = await makeRequest('Google')
+		console.log('Response Received')
+		const processResponse = await processRequest(response)
+	} catch (err) {
+		console.log(err)
+	}
+}
+doWork()

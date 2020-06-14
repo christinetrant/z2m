@@ -753,6 +753,12 @@ npm install redux-thunk
 
 * https://github.com/daumann/ECMAScript-new-features-list
 
+[Fetch Web Dev Simplified Video](https://www.youtube.com/watch?v=cuEtnrL9-H0)
+
+[Promises Web Dev Simplified Video](https://www.youtube.com/watch?v=DHvZLI7Db8E&list=PLZlA0Gpn_vH-0FlQnruw2rd1HuiYJHHkm)
+
+
+
 ******************************************************************************************
 
 ******************************************************************************************
