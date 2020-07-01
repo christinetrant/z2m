@@ -106,7 +106,7 @@ console.log(hasInexpensiveItems); // true
 // REDUCE
 // It is slightly different as it is doing an operation on the array and returning a combination of all those different operations
 // If we want to get the total price of all the items in the array:
-const total = items.every((currentTotal, item) => {
+const total = items.reduce((currentTotal, item) => {
   return item.price + currentTotal;
 }, 0)
 console.log(total); // 1840
