@@ -772,6 +772,9 @@ npm install redux-thunk
 * https://www.twilio.com/docs/api/messaging/send-messages
 * https://apilist.fun
 
+Exercise: Web App APIs
+ * Pokemon Api App -> [https://github.com/christinetrant/pokemon](https://github.com/christinetrant/pokemon)
+
 
 ******************************************************************************************
 ## 23.  __FINAL PROJECT: SmartBrain Front-End__
