@@ -28,7 +28,7 @@
 // import largeNumber from './script2.js';
 
 // In order for you to get familiarized with CommonJS we're going to use the 'require' form.
-const script2 = require('./script2.js');
+const script2 = require('./262.ModulesInNode.js');
 // Well because now we've exported this object, and the way we want to access it, here,
 
 // We're exporting a global object which we can name whatever.
