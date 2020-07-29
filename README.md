@@ -959,10 +959,10 @@ Install PostgreSQL:
   ```
 * http://dc-apuntes.blogspot.com/2016/04/comandos-postgres-desde-cmd-windows.html
 * https://www.w3resource.com/PostgreSQL/connect-to-postgresql-database.php
-* https://www.youtube.com/watch?v=fD7x8hd9yE4
+* [Example: PostgreSQL Create DB and Table](https://www.youtube.com/watch?v=fD7x8hd9yE4)
 
 data types
-* https://www.techonthenet.com/postgresql/datatypes.php
+* [Data Types used in PostgreSQL](https://www.techonthenet.com/postgresql/datatypes.php)
 
 Terminal commands for windows:
 
