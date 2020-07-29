@@ -2,9 +2,9 @@
   "name": "Section24-Node.js_and_Express.js",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "273-NodeFileSystemModule.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon script.js"
   },
   "keywords": [],
   "author": "",
