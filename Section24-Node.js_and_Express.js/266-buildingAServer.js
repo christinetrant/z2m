@@ -14,7 +14,7 @@
 */
 
 // Node comes with its own HTTP module and that's what we're going to use to create our server:
-const http = require('hhtp');
+const http = require('http');
 
 // We simply grab the HTTP module and then create a server by defining it saying 'http.createServer()' and create a function
 const server = http.createServer(() => {
