@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
     // once we've written everything we want to write, we end the response
     // res.end()
     // We tell the browser we will be writing HTML - a status code of 200 OK and that it will be a html file
+    // https://www.w3schools.com/nodejs/nodejs_http.asp
     res.writeHead(200, { 'Content-Type': 'text/html'})
     fs.readFile('index.html', (error, data) => {
         if(error) {
