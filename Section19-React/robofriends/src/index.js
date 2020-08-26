@@ -10,7 +10,7 @@ import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import { searchRobots } from "./reducers";
 import "tachyons";
-// robots isn't a default app, it is a variable so we destructure when calling (curly brackets)
+// robots isn't a default app, it is a variable so we de-structure when calling (curly brackets)
 // import { robots } from './robots'
 
 // if we are using javascript we wrap in curly brackets - JSX rules

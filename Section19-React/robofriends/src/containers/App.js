@@ -1,10 +1,27 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 // import { robots } from './robots';
 import Scroll from "../components/Scroll";
 import ErrorBoundary from "../components/ErrorBoundary";
 import "./App.css";
+
+import { setSearchField } from "../actions";
+
+const mapStateToProps = (state) => {
+  return {
+    // searchField: state.searchRobots.searchField,
+    // We only have one state at the moment so call it directly rather than through searchRobots
+    searchField: state.searchField,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
+  };
+};
 
 // Using state
 // https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/
@@ -26,7 +43,7 @@ class App extends Component {
       // robots: robots,
       // we will be getting the list so we start off with an empty array
       robots: [],
-      searchfield: "",
+      // searchfield: "",
     };
   }
 
@@ -39,19 +56,20 @@ class App extends Component {
     // this.setState({ robots: robots })
   }
 
-  onSearchChange = (event) => {
-    this.setState({ searchfield: event.target.value });
-    // const filteredRobots = this.state.robots.filter(robot => {
-    // 	return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
-    // })
-    // console.log(filteredRobots);
-  };
+  // onSearchChange = (event) => {
+  // this.setState({ searchfield: event.target.value });
+  // const filteredRobots = this.state.robots.filter(robot => {
+  // 	return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+  // })
+  // console.log(filteredRobots);
+  // };
 
   render() {
-    // instead of calling this.state.searchfield and this.state.robots we can destructure:
-    const { robots, searchfield } = this.state;
+    // instead of calling this.state.searchfield and this.state.robots we can de-structure:
+    const { robots } = this.state;
+    const { searchField, onSearchChange } = this.props;
     const filteredRobots = robots.filter((robot) => {
-      return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+      return robot.name.toLowerCase().includes(searchField.toLowerCase());
     });
 
     // We don't want to call each card separately - what if we have 20 cards?  So we create a cardlist component
@@ -61,7 +79,7 @@ class App extends Component {
     ) : (
       <div className="tc">
         <h1 className="light-green">RoboFriends</h1>
-        <SearchBox searchChange={this.onSearchChange} />
+        <SearchBox searchChange={onSearchChange} />
         {/*<CardList robots={robots} /> */}
         <Scroll>
           <ErrorBoundary>
@@ -72,4 +90,7 @@ class App extends Component {
     );
   }
 }
-export default App;
+// export default App;
+// To use connect we need to call connect which will return the App
+// connect accepts two parameters - what state should I listen to and what dispatch / action should I listen to
+export default connect(mapStateToProps, mapDispatchToProps)(App);
