@@ -161,6 +161,14 @@ const c = 789;
 
 const okObj = { a, b, c };
 
+const name = 'john snow';
+const obj = {
+	[name]: 'hello',
+	[1+3]: 'hihi'
+}
+//obj
+//{3: "hihi", john snow: "hello"}
+
 
 // TEMPLATE STRINGS
 // var message = "Hello " + firstName + " have I met you before? I think we met in " + city + " last summer no???";
@@ -173,9 +181,21 @@ const message = `Hello ${firstName} have I met you before? I think we met in ${c
 // }
 const isValidAge = (age = 10) => age;
 
+function greet(name='', age=30, pet='cat') {
+	return `Hello ${name} you seem to be ${age-10}.  What a lovely ${pet} you have`;
+}
+// "Hello  you seem to be 20.  What a lovely cat you have"
+// greet("john", 50, "monkey") will return these
+
 // SYMBOL
 // Create a symbol: "This is my first Symbol"
 const sym1 = Symbol("This is my first Symbol");
+
+let sym1 = Symbol();
+let sym2 = Symbol('foo')
+let sym3 = Symbol('foo')
+
+// sym2 === sym3 returns false as they are different objects
 
 // ARROW FUNCTIONS
 // function whereAmI(username, location) {
